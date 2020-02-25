@@ -24,4 +24,13 @@ Follow-up: what if you can't use division?
 
 ---
 
-#### Problem 3
+#### Problem 366
+
+This problem was asked by Amazon.
+
+Make the person sit as far as possible.
+0 in the array represents empty position.
+
+[Solution](solution/FarthestSeatOnBench.java)
+
+
