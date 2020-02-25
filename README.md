@@ -7,5 +7,5 @@ Given a list of numbers, return whether any two sums to k. For example, given [1
 
 Bonus: Can you do this in one pass?
 
-(solution/SumPair.java)
+[Solution](solution/SumPair.java)
 ---
