@@ -1,5 +1,4 @@
-# Daily Coding Problem
-Solutions to problems sent by dailycodingproblem.com
+# Commonly asked Coding Problems
 All my solutions are in JAVA
 
 ---
