@@ -1,5 +1,7 @@
-Daily Coding Problem
+# Daily Coding Problem
 Solutions to problems sent by dailycodingproblem.com
+All my solutions are in JAVA
+
 ---
 #### Problem 1
 Google Intern Sample Interview Question
