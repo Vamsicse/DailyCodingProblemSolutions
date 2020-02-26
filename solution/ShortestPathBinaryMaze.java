@@ -1,6 +1,13 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Shortest Path in Maze Problem
+ * 
+ * @author  Vamsi Krishna Myalapalli
+ * @version 1.0
+ * @since   2019-12-27
+ */
 class ShortestPathBinaryMaze
 {
     static int ROW = 3, COL = 3;
