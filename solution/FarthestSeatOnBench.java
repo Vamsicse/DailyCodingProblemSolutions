@@ -22,7 +22,7 @@ public class FarthestSeatOnBench {
     }
 
     public static void main(String[] args) {
-        int[] a = {0,0,0,0,1,0,0,0,0,0};
+        int[] a = {0,0,0,0,0,0,0,0,0,0};
         int size = a.length;
         PriorityQueue<Seat> seatingSpace = new PriorityQueue<>(new SeatComparator());
         for(int i = 0; i < size; i ++) {
