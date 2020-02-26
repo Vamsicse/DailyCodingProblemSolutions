@@ -56,3 +56,12 @@ Make the person sit as far as possible.
 [Solution](solution/FarthestSeatOnBench.java)
 
 ---
+
+### Problem 367
+Find TopKFrequentElements in a list
+
+[Solution](solution/TopKFrequentElements.java)
+
+---
+
+
