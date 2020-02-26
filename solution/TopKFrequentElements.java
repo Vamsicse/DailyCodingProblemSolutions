@@ -72,7 +72,6 @@ public class TopKFrequentElements {
             result.addAll(freqMap.keySet());
         } else {
             int c = 0;
-            System.out.println(freqMap.keySet());
             for (Integer key : freqMap.keySet()) {
                 if (c < k) {
                     result.add(key);
