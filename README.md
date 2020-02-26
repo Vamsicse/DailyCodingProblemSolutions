@@ -58,7 +58,6 @@ Make the person sit as far as possible.
 ---
 
 ### Problem 367
-
 This problem was asked by Walmart Labs.
 
 Find TopKFrequentElements in a list.
