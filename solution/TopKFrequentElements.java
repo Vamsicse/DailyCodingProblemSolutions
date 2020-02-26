@@ -33,7 +33,7 @@ public class TopKFrequentElements {
         System.out.println(topKFrequents(new int[]{3, 0, 1, 0}, 2));
     }
 
-    // Approach 1 (Using Heap)
+    // Approach 1 (Using Heap) (Recommended)
     public static List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> count = (Arrays.stream(nums).boxed()
                 .collect(Collectors.toList())).stream().collect(Collectors.groupingBy(Function.identity(), Collectors.summingInt(e -> 1)));
