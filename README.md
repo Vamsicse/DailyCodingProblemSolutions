@@ -62,6 +62,25 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 ---
 
+#### Problem 133
+
+This problem was asked by Amazon.
+
+Given a node in a binary tree, return the next bigger element, also known as the inorder successor. (NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all)
+
+For example, the inorder successor of 22 is 30.
+
+   10
+  /  \
+ 5    30
+     /  \
+   22    35
+You can assume each node has a parent pointer.
+
+[Solution](solution/BinaryTreeIterator.java)
+
+---
+
 
 #### Problem 140
 
