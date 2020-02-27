@@ -18,7 +18,7 @@ public class Once {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(2, 4, 6, 8, 10, 2, 6, 10, 10);
-        new OnceTwice().findSingles(list);
+        new Once().findSingles(list);
     }
 
     private Set<Integer> findSingles(List<Integer> list){
