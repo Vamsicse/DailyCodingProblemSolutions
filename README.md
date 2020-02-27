@@ -74,6 +74,21 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 ---
 
+#### Problem 77
+
+This problem was asked by Walmart Labs and Snapchat.
+
+Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
+
+The input list is not necessarily ordered in any way.
+
+For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+
+[Solution](solution/MergeIntervals.java)
+
+---
+
+
 #### Problem 133
 
 This problem was asked by Amazon.
