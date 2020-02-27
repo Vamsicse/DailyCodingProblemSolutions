@@ -82,11 +82,11 @@ Given a node in a binary tree, return the next bigger element, also known as the
 
 For example, the inorder successor of 22 is 30.
 
-   10
+    10
    
-  /  \
+   /   \
   
- 5    30
+  5    30
  
      /  \
 
