@@ -96,6 +96,16 @@ Follow-up: Can you do this in linear time and constant space?
 
 ---
 
+#### Problem 282
+
+This problem was asked by Netflix.
+
+Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a^2 + b^2 = c^2.
+
+[Solution](solution/PythagoreanTriplets.java)
+
+---
+
 #### Problem 366
 
 This problem was asked by Amazon.
