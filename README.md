@@ -78,7 +78,7 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 This problem was asked by Amazon.
 
-Given a node in a binary tree, return the next bigger element, also known as the inorder successor. (NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all)
+Given a node in a binary tree, return the next bigger element, also known as the inorder successor. (NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all).
 
 For example, the inorder successor of 22 is 30.
 
@@ -97,7 +97,6 @@ You can assume each node has a parent pointer.
 [Solution](solution/BinaryTreeIterator.java)
 
 ---
-
 
 #### Problem 140
 
