@@ -99,3 +99,14 @@ class ShortestPathBinaryMaze
             System.out.println("Shortest Path doesn't exist");
     }
 }
+
+
+
+
+/*
+Output:
+—————————
+
+Shortest Path is 4
+
+*/
