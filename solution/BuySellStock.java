@@ -33,3 +33,12 @@ public class BuySellStock {
         maxProfit(new int[] {176,72,32,100,76});
     }
 }
+
+
+/*
+Output:
+—————————
+Max profit is: 68
+Buy at: 32. Sell at: 100
+
+*/
