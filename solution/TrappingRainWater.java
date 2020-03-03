@@ -39,3 +39,15 @@ public class TrappingRainWater {
         System.out.println("Maximum water that can be accumulated is " + findWater(arr));
     }
 }
+
+
+
+
+/*
+Output:
+—————————
+
+Maximum water that can be accumulated is 6
+
+*/
+
