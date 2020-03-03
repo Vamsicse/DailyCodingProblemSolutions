@@ -44,3 +44,14 @@ public class PythagoreanTriplets {
     }
 
 }
+
+
+
+
+/*
+Output:
+—————————
+
+Found: 3,4,5
+
+*/
