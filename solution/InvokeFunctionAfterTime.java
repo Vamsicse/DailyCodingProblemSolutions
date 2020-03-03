@@ -47,3 +47,18 @@ public class InvokeFunctionAfterTime {
         System.out.println("Hey WhatsUp!");
     }
 }
+
+
+
+
+
+/*
+Output:
+—————————
+
+Invoking method: greetHowdy after 5 seconds
+Invoking method: greetWhatsUp after 3 seconds
+Hey WhatsUp!
+Howdy!
+
+*/
