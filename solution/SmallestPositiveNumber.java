@@ -76,3 +76,14 @@ public class SmallestPositiveNumber {
     }
 
 }
+
+
+
+/*
+  Output:
+  -------
+  Missing smallest positive number among [0, 10, 2, -10, -20] is: 1
+  Missing smallest positive number among [3, 4, -1, 1] is: 2
+  Missing smallest positive number among [1, 2, 0] is: 3
+  Missing smallest positive number among [1, 2, 3, 10] is: 4
+*/
