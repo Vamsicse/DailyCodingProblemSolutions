@@ -19,7 +19,7 @@ public class MergeIntervals {
         int start, end;
         public Interval(int s,int e){start=s;end=e;}
         @Override
-        public String toString() { return start+","+end; }
+        public String toString() { return "("+start+","+end+")"; }
     }
 
     public static void main(String args[]) {
@@ -52,3 +52,14 @@ public class MergeIntervals {
     }
 
 }
+
+
+
+
+/*
+Output:
+—————————
+
+[(1,4), (5,8)]
+
+*/
