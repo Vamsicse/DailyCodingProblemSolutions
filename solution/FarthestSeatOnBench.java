@@ -51,3 +51,21 @@ public class FarthestSeatOnBench {
         }
     }
 }
+
+
+/*
+Output:
+—————————
+
+Next Seat Option: 0
+Next Seat Option: 9
+Next Seat Option: 4
+Next Seat Option: 6
+Next Seat Option: 2
+Next Seat Option: 7
+Next Seat Option: 3
+Next Seat Option: 8
+Next Seat Option: 5
+Next Seat Option: 1
+
+*/
