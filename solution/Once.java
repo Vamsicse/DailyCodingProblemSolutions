@@ -41,3 +41,14 @@ public class Once {
     }
 
 }
+
+
+
+/*
+Output:
+—————————
+
+Once:  [4, 8]
+Multi: [2, 6, 10]
+
+*/
