@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 /**
  * Problem: Find Smallest Positive number
- * Approach: Segregate positive numbers and find smallest postive number
+ * Approach: Segregate positive numbers and find smallest positive number
  *
  * Time Complexity: ~ O(n)
  *
