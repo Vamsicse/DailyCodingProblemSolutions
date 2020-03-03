@@ -57,3 +57,15 @@ class ProductArray {
         pa.productArray(arr, n);
     }
 } 
+
+
+
+
+/*
+Output:
+—————————
+
+The product array is : 
+180 600 360 300 900 
+
+*/
