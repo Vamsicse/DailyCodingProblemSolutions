@@ -25,7 +25,6 @@ public class SmallestPositiveNumber {
                 j++;
             }
         }
-        System.out.println("After Segregation: " + Arrays.toString(arr));
         return j;  // return count of non-positive integers
     }
 
@@ -72,6 +71,8 @@ public class SmallestPositiveNumber {
         System.out.println("Missing smallest positive number among " + Arrays.toString(arr2) + " is: " + findMissing(arr2, arr2.length));
         int arr3[] = {1, 2, 0};
         System.out.println("Missing smallest positive number among " + Arrays.toString(arr3) + " is: " + findMissing(arr3, arr3.length));
+        int arr4[] = {1, 2, 3, 10};
+        System.out.println("Missing smallest positive number among " + Arrays.toString(arr4) + " is: " + findMissing(arr4, arr4.length));
     }
 
 }
