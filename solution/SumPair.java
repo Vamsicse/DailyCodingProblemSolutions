@@ -35,3 +35,15 @@ public class SumPair {
         throw new IllegalArgumentException("No two sum solution is present in the input");
     }
 }
+
+
+
+
+
+/*
+Output:
+—————————
+
+[2, 5]
+
+*/
