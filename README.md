@@ -120,9 +120,9 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item. get(key): gets the value at key. If no such key exists, return null. Each operation should run in O(1) time.
 
-[Solution](solution/LRUCache.java) {Approach 1: Using Linked List}
+[Solution1](solution/LRUCache.java) {Using Linked List}
 
-[Solution](solution/LRU.java) {Approach 2: Using DeQueue}
+[Solution2](solution/LRU.java) {Using DeQueue}
 
 ---
 
