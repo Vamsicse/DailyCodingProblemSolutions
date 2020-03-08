@@ -18,8 +18,8 @@ import java.util.Iterator;
  * @since   2019-12-27
  */
 public class LRU {
-    private static Deque<Integer> dq = new LinkedList<>();;
-    private static HashSet<Integer> map = new HashSet<>();;
+    private static Deque<Integer> dq = new LinkedList<>();
+    private static HashSet<Integer> map = new HashSet<>();
     private static int cacheSize = 4;
 
     private static void set(int x) {
