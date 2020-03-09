@@ -11,22 +11,19 @@ import java.util.Arrays;
  * @since   2019-12-27
  */
 public class MinimumPlatforms {
-    static int findPlatform(double arr[], double dep[], int n)
-    {
+    
+    static int findPlatform(double arr[], double dep[], int n) {
         Arrays.sort(arr);
         Arrays.sort(dep);
         int plat_needed = 1, result = 1, i=1, j=0;
-        while (i < n && j < n)
-        {
-            if (arr[i] <= dep[j])
-            {
+        while (i < n && j < n) {
+            if (arr[i] <= dep[j]) {
                 plat_needed++;
                 i++;
                 if (plat_needed > result)
                     result = plat_needed;
             }
-            else
-            {
+            else {
                 plat_needed--;
                 j++;
             }
@@ -34,8 +31,7 @@ public class MinimumPlatforms {
         return result;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         double arr1[] = {900, 940, 950, 1100, 1500, 1800};
         double dep1[] = {910, 1200, 1120, 1130, 1900, 2000};
         System.out.println("Minimum Number of Platforms Required = " + findPlatform(arr1, dep1, arr1.length));
@@ -45,3 +41,11 @@ public class MinimumPlatforms {
     }
 }
 
+/*
+Output:
+-----------------------------------------------------
+
+Minimum Number of Platforms Required = 3
+Minimum Number of Platforms Required = 3
+
+*/
