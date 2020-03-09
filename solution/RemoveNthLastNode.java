@@ -1,5 +1,3 @@
-// Delete Nth node from the end of the given linked list
-
 /**
  * Problem: Delete Nth node from the end of the given linked list
  *
