@@ -298,8 +298,11 @@ We are given two arrays which represent arrival and departure times of trains th
 Example:
 
 Input: arr[] = {9:00, 9:40, 9:50, 11:00, 15:00, 18:00}
+
        dep[] = {9:10, 12:00, 11:20, 11:30, 19:00, 20:00}
+       
 Output: 3
+
 There are at-most three trains at a time (time between 11:00 to 11:20)
 
 [Solution](solution/MinimumPlatforms.java)
