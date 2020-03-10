@@ -43,3 +43,16 @@ public class CountDigitDecodes {
     }
 
 }
+
+
+
+/*
+Output:
+———————————————————————————————————————————
+
+# of possible combinations for 111 is: 3
+# of possible combinations for 121 is: 3
+# of possible combinations for 1234 is: 3
+
+*/
+
