@@ -1,5 +1,3 @@
-package arrays;
-
 /**
  * Problem: Find maximum possible stolen value from non-adjacent houses
  * Approach: Use Dynamic Programming
