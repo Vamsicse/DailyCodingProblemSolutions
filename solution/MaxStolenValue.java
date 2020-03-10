@@ -41,11 +41,8 @@ public class MaxStolenValue {
     }
 
     public static void main(String[] args) {
-        System.out.println("*****************************************");
         System.out.println("Max Loot for {6, 7, 1, 3, 8, 2, 4} is: " + maxLoot(new int[]{6, 7, 1, 3, 8, 2, 4}));
-        System.out.println("*****************************************");
         System.out.println("Max Loot for {5, 3, 4, 11, 2} is: " + maxLoot(new int[]{5, 3, 4, 11, 2}));
-        System.out.println("*****************************************");
     }
 
 }
@@ -57,12 +54,10 @@ public class MaxStolenValue {
 /*
 Output:
 -------------------------------------
-*****************************************
-Max Loot for {6, 7, 1, 3, 8, 2, 4} is: 19
-*****************************************
-Max Loot for {5, 3, 4, 11, 2} is: 16
-*****************************************
 
+Max Loot for {6, 7, 1, 3, 8, 2, 4} is: 19
+
+Max Loot for {5, 3, 4, 11, 2} is: 16
 
 
 */
