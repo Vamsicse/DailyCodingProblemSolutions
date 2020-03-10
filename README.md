@@ -272,8 +272,8 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 This problem was asked by Amazon.
 
-Make the person sit as far as possible.
-0 in the array represents empty position.
+In a row of chairs. Make the person sit as far as possible.
+0 in the array represents empty position and 1 represents occupied position.
 
 [Solution](solution/FarthestSeatOnBench.java)
 
@@ -317,6 +317,8 @@ Thief will steal 5 and 11
 ---
 
 #### Problem 369
+
+This problem was asked by Illumina.
 
 Find Minimum Number of Platforms Required for a Railway/Bus Station.
 Given arrival and departure times of all trains that reach a railway station, the task is to find the minimum number of platforms required for the railway station so that no train waits.
