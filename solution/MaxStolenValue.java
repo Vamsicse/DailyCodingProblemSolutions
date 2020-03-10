@@ -1,9 +1,9 @@
 /**
  * Problem: Find maximum possible stolen value from non-adjacent houses
  * Approach: Use Dynamic Programming
- * dp[i] = max (hval[i] + dp[i-2], dp[i-1])
+ * dp[i] = max (arr[i] + dp[i-2], dp[i-1])
  *
- * hval[i] + dp[i-2] is the case when thief decided to rob house i.
+ * arr[i] + dp[i-2] is the case when thief decided to rob house i.
  * In that situation maximum value will be the current value of house + maximum value stolen till last
  * robbery at house not adjacent to house i which will be house i-2.
  *
@@ -18,20 +18,20 @@
  */
 public class MaxStolenValue {
 
-    static int maxLoot(int hval[])
+    static int maxLoot(int arr[])
     {
-        int n = hval.length;
+        int n = arr.length;
         if (n == 0)
             return 0;
-        int a = hval[0];
+        int a = arr[0];
         if (n == 1)
             return a;
-        int b = Math.max(hval[0], hval[1]);
+        int b = Math.max(arr[0], arr[1]);
         if (n == 2)
             return b;
         int c = 0;     // contains maximum stolen value at the end
         for (int i=2; i<n; i++)  {
-            c = Math.max(hval[i]+a, b);
+            c = Math.max(arr[i]+a, b);
             a = b;
             b = c;
         }
