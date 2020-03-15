@@ -248,15 +248,15 @@ Given a node in a binary tree, return the next bigger element, also known as the
 
 For example, the inorder successor of 22 is 30.
 
-    10
+   10
    
    /   \
   
   5    30
  
-     /  \
+   /   \
 
-    22    35
+   22    35
     
 You can assume each node has a parent pointer.
 
@@ -332,7 +332,7 @@ Input  : hval[] = {5, 3, 4, 11, 2}
 Output : 16
 Thief will steal 5 and 11
 
-[Solution](solution/MaxStolenValue.java)
+[Solution](solution/MaxStolenValue.java)  (DP - Dynamic Programming)
 
 ---
 
@@ -370,7 +370,7 @@ Output: 3 (1-> 3 -> 8 ->9)
 
 First element is 1, so can only go to 3. Second element is 3, so can make at most 3 steps eg to 5 or 8 or 9.
 
-[Solution](solution/MinJumpsToReachEnd.java)
+[Solution](solution/MinJumpsToReachEnd.java) (DP - Dynamic Programming)
 
 ---
 
