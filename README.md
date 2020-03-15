@@ -184,6 +184,16 @@ set(key, value): sets key to value. If there are already n items in the cache an
 
 ---
 
+#### Problem 73
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, reverse it in-place.
+
+[Solution2](solution/ReverseLinkedList.java)
+
+---
+
 #### Problem 77
 
 This problem was asked by Walmart Labs and Snapchat.
