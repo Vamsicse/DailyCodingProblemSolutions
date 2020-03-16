@@ -240,6 +240,26 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 ---
 
+#### Problem 106
+
+This problem was asked by PinInterest.
+
+Find minimum number of jumps to reach end.
+
+Given an array of integers where each element represents the max number of steps that can be made forward from that element. Write a function to return minimum number of jumps to reach the end of array (starting from first element). 
+If an element is 0, then cannot move through that element.
+
+Example:
+
+Input: arr[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}
+Output: 3 (1-> 3 -> 8 ->9)
+
+First element is 1, so can only go to 3. Second element is 3, so can make at most 3 steps eg to 5 or 8 or 9.
+
+[Solution](solution/MinJumpsToReachEnd.java) (DP - Dynamic Programming)
+
+---
+
 #### Problem 133
 
 This problem was asked by Amazon.
@@ -353,24 +373,6 @@ Output: 3
 There are at-most three trains at a time (time between 11:00 to 11:20)
 
 [Solution](solution/MinimumPlatforms.java)
-
----
-
-#### Problem 370
-
-Find minimum number of jumps to reach end.
-
-Given an array of integers where each element represents the max number of steps that can be made forward from that element. Write a function to return minimum number of jumps to reach the end of array (starting from first element). 
-If an element is 0, then cannot move through that element.
-
-Example:
-
-Input: arr[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}
-Output: 3 (1-> 3 -> 8 ->9)
-
-First element is 1, so can only go to 3. Second element is 3, so can make at most 3 steps eg to 5 or 8 or 9.
-
-[Solution](solution/MinJumpsToReachEnd.java) (DP - Dynamic Programming)
 
 ---
 
