@@ -242,7 +242,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 #### Problem 106
 
-This problem was asked by PinInterest.
+This problem was asked by Pinterest.
 
 Find minimum number of jumps to reach end.
 
