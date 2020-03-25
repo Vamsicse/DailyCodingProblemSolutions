@@ -178,7 +178,7 @@ The edit distance between two strings refers to the minimum number of character 
 
 Given two strings, compute the edit distance between them.
 
-[Solution](solution/EditDistance.java)
+[Solution](solution/EditDistance.java) (DP - Dynamic Programming Approach)
 
 ---
 
