@@ -1,10 +1,9 @@
 /**
  * Problem: Find edit distance between two strings
- * Approach:
+ * Approach: Use Dynamic Programming
  *
- * Time Complexity: O()
- * Space Complexity: O())
- * Auxiliary Space: O()
+ * Time Complexity: O(mn)
+ * Auxiliary Space: O(mn)
  *
  * @author Vamsi Krishna Myalapalli
  * @version 1.0
