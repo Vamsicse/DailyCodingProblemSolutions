@@ -48,7 +48,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Solution](solution/CountDigitDecodes.java)
+[Solution](solution/CountDigitDecodes.java) {DP - Dynamic Programming}
 
 ---
 
