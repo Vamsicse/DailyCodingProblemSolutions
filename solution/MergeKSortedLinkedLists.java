@@ -19,7 +19,7 @@ public class MergeKSortedLinkedLists {
     public static Node mergeKSortedLists(Node arr[], int k)
     {
         Node head = null, last = null;
-        PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a.data));
+        PriorityQueue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(n -> n.data));
 
         // push the head nodes of all the k lists in 'pq'
         for (int i = 0; i < k; i++) {
