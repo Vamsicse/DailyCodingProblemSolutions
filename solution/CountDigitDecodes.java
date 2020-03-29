@@ -3,12 +3,13 @@
  * Approach: Use Dynamic Programming.
  *
  * Time Complexity: O(n)
- * Auxiliary Space: O(1)
+ * Auxiliary Space: O(n)
  *
  * @author  Vamsi Krishna Myalapalli
  * @version 1.0
  * @since   2019-12-27
- * @implNote Compare with Fibonacci Series using DP
+ *
+ * Compare with 'Fibonacci Series using DP'
  */
 public class CountDigitDecodes {
 
@@ -27,9 +28,11 @@ public class CountDigitDecodes {
         char digits[] = s.toCharArray();
         int n = s.length();
         int count[] = new int[n + 1];
-        count[0] = 1;   count[1] = 1;
-        if(digits[0]=='0')   //for base condition "01123" should return 0
+        count[0] = 1;
+        count[1] = 1;
+        if(digits[0]=='0') {   //for base condition "01123" should return 0
             return 0;
+        }
         for (int i = 2; i <= n; i++) {
             count[i] = 0;
             // If the last digit is not 0, then last digit must add to the number of words
@@ -43,6 +46,7 @@ public class CountDigitDecodes {
     }
 
 }
+
 
 
 
