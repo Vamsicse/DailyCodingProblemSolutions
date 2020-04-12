@@ -434,7 +434,7 @@ Write a program to merge two binary trees. Each node in the new tree should hold
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
-[Solution](solution/MergeBinaryTrees.java)
+[Solution](solution/MergeBinaryTrees.java) {Recursion}
 
 ---
 
