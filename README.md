@@ -297,6 +297,7 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 ---
 
 #### Problem 52
+
 This problem was asked by Google, WalmartLabs.
 
 Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
@@ -306,6 +307,20 @@ set(key, value): sets key to value. If there are already n items in the cache an
 [Solution1](solution/LRUCache.java) - {Using Linked List} Moderate
 
 [Solution2](solution/LRU.java) - {Using DeQueue} Easy
+
+---
+
+#### Problem 61
+
+This problem was asked by Google.
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+[Solution2](solution/PowerN.java) {Recursion}
 
 ---
 
