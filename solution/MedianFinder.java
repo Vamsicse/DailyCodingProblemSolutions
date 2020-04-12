@@ -22,16 +22,16 @@ class MedianFinder {
     public static void addNum(int num) {
         minHeap.offer(num);
         maxHeap.offer(minHeap.poll());
-        if(minHeap.size()<maxHeap.size()){
+        if(minHeap.size()<maxHeap.size()) { // Always look after that size of minHeap >= maxHeap
             minHeap.offer(maxHeap.poll());
         }
     }
 
     public static double findMedian() {
         if(minHeap.size() > maxHeap.size()){
-            return minHeap.peek();
+            return minHeap.peek();   // Top most value in minHeap is median
         }else {
-            return (minHeap.peek()+maxHeap.peek())/2.0;
+            return (minHeap.peek()+maxHeap.peek())/2.0; // Average of 2 roots, when size is same. 
         }
     }
 
