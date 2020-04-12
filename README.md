@@ -428,7 +428,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 #### Problem 327
 
-This problem was asked by Salesforce.
+This problem was asked by Amazon and Salesforce.
 
 Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
 
