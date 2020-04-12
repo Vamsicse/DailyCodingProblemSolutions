@@ -21,7 +21,7 @@ public class PowerN {
         }
         else {
             if(y > 0)
-                return x * temp * temp;
+                return temp * temp * x;
             else
                 return (temp * temp) / x;
         }
