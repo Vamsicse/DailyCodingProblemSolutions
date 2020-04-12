@@ -29,7 +29,7 @@ class MedianFinder {
 
     public static double findMedian() {
         if(minHeap.size() > maxHeap.size()){
-            return minHeap.peek();   // Top most value in minHeap is median
+            return minHeap.peek();   // Root of minHeap is median
         }else {
             return (minHeap.peek()+maxHeap.peek())/2.0; // Average of 2 roots, when size is same. 
         }
