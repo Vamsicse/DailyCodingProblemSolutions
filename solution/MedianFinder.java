@@ -19,11 +19,6 @@ class MedianFinder {
     private static PriorityQueue<Integer> minHeap = new PriorityQueue<>();
     private static PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 
-    public MedianFinder() {
-        minHeap = new PriorityQueue<>();
-        maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
-    }
-
     public static void addNum(int num) {
         minHeap.offer(num);
         maxHeap.offer(minHeap.poll());
@@ -60,9 +55,6 @@ class MedianFinder {
 }
 
 
-
-
-
 /*
 Output:
 —————————————————————— 
@@ -74,6 +66,5 @@ Median so far: 3.5
 Median so far: 2.0
 Median so far: 2.0
 Median so far: 2.0
-
 
 */
