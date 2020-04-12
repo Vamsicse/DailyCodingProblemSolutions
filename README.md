@@ -237,6 +237,16 @@ Given two strings, compute the edit distance between them.
 
 ---
 
+#### Problem 36
+
+This problem was asked by Dropbox.
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+[Solution](solution/SecondLargestBSTNode.java) (Recursion)
+
+---
+
 #### Problem 40
 
 This problem was asked by Google.
