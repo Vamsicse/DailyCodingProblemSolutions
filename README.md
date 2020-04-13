@@ -438,6 +438,16 @@ Follow-up: Can you do this in linear time and constant space?
 
 ---
 
+#### Problem 197
+
+This problem was asked by Amazon.
+
+Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
+
+[Solution](solution/ArrayRotate.java)
+
+---
+
 #### Problem 210
 
 This problem was asked by Apple.
