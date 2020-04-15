@@ -66,6 +66,7 @@ public class FindIntersection {
         System.out.println("Intersection node is: " + getIntersectionNode(list.head1, list.head2));
     }
 
+    /*
     public static ListNode getIntersectionNode(ListNode n1, ListNode n2) {
         Set<ListNode> chain = new HashSet<>();
         while(null!=n1){
@@ -79,7 +80,17 @@ public class FindIntersection {
             n2 = n2.next;
         }
         return null;
+    } */
+    
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode n1 = headA, n2 = headB;
+        while (n1.val!=n2.val) {
+            n1 = (n1 != null) ? n1.next : headB;
+            n2 = (n2 != null) ? n2.next : headA;
+        }
+        return n1;
     }
+    
 
 }
 
