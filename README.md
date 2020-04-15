@@ -1,5 +1,6 @@
 # Commonly asked Coding Problems
-All my solutions are in JAVA
+
+All my solutions are tested in LeetCode for best performance.
 
 ---
 #### Problem 1
