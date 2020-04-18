@@ -4,7 +4,7 @@ import java.util.LinkedList;
 /**
  * Problem: Given an array and an integer K, find the maximum for each and every contiguous subarray of size k.
  * Approach 1 (1ms): Keep track of max window. max_index - the index of maximum in current (or previous if in next loop) sliding window.
- * Approach 2 (7ms): create a Deque, Qi of capacity k, that stores only useful elements of current window of k elements.
+ * Approach 2 (7ms): Create a Deque, Qi of capacity k, that stores only useful elements of current window of k elements.
  *  An element is useful if it is in current window and is greater than all other elements on left side of it in current window.
  *  We process all array elements one by one and maintain Qi to contain useful elements of current window and these useful elements are maintained in sorted order.
  *  The element at front of the Qi is the largest and element at rear of Qi is the smallest of current window.
