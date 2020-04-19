@@ -10,7 +10,7 @@ import java.util.LinkedList;
  *  The element at front of the Qi is the largest and element at rear of Qi is the smallest of current window.
  *
  * Time Complexity: O(n)
- * Space Complexity: Approach(1): O(1), Approach2: O(k)
+ * Space Complexity: Approach1: O(1), Approach2: O(k)
  *
  * @author Vamsi Krishna Myalapalli
  * @version 1.0
