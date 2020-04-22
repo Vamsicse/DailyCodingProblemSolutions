@@ -12,6 +12,7 @@ import java.util.Arrays;
  */
 public class SmallestPositiveNumber {
 
+    // Runtime: 0 ms 
     public static int firstMissingPositive(int[] nums, int size) {
         for(int i=0 ;i < size; i++){
             if(nums[i] <= 0 || nums[i] > size){
