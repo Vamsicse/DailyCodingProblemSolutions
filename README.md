@@ -271,9 +271,7 @@ Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-Solution
-
-[Solution](solution/SegregateRGBValues.java)
+[Solution](solution/SortRGBValues.java)
 
 ---
 
