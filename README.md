@@ -273,7 +273,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 Solution
 
-[Solution](solution/SegregateRGBValues.java) {Heap}
+[Solution](solution/SegregateRGBValues.java)
 
 ---
 
