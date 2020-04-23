@@ -2,10 +2,10 @@ import java.util.Arrays;
 
 /**
  * Problem: Sort RGB Values in linear time.
- * Approach: Use H
+ * Approach: Use an if case for each of R,G,B values and swap and adjust pointers.
  *
  * Time complexity : O(n)
- * Space complexity : In place sorting. Use an if case for each of R,G,B values.
+ * Space complexity : In place sorting.
  *
  * @author  Vamsi Krishna Myalapalli
  * @since   2019-12-27
@@ -23,7 +23,7 @@ public class SortRGBValues {
         int b = arr.length - 1;
         for (int r=0, g=0; g <= b ; ) {
             if (arr[g] == 'R') {
-                swap(arr, g, r);
+                swap(arr, r, g);
                 r++;
                 g++;
             }
@@ -44,6 +44,7 @@ public class SortRGBValues {
     }
 
 }
+
 
 
 /*
