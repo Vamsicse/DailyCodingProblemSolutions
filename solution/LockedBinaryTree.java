@@ -2,7 +2,7 @@
 
 /**
  * Problem: Implement lock/unlockable Binary Tree
- * Approach: Have a boolean variable keep track of isLocked value.
+ * Approach: Track the number of locked nodes for each subtree.
  *
  * Time Complexity: O(n)
  *
