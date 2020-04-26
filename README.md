@@ -482,20 +482,18 @@ First element is 1, so can only go to 3. Second element is 3, so can make at mos
 
 This problem was asked by Amazon.
 
-Given a node in a binary tree, return the next bigger element, also known as the inorder successor. (NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all).
+Given a node in a binary tree, return the next bigger element, also known as the inorder successor.
+(NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all)
 
 For example, the inorder successor of 22 is 30.
 
+```
    10
-   
-   /   \
-  
-  5    30
- 
-   /   \
-
+  /  \
+ 5    30
+     /  \
    22    35
-    
+```
 You can assume each node has a parent pointer.
 
 [Solution](solution/BinaryTreeIterator.java)
