@@ -12,6 +12,7 @@
  */
 public class MinRemoveValidParenthesis {
 
+    // Runtime: 4ms, Memory: 40.4 MB
     public String minRemoveToMakeValid(String s) {
         char[] arr = s.toCharArray();
         int open = 0;
@@ -39,7 +40,6 @@ public class MinRemoveValidParenthesis {
         return new String(arr).substring(0, p);
     }
 
-    // Runtime: 4ms, Memory: 40.4 MB
     public static void main(String[] args) {
         MinRemoveValidParenthesis minRemoveValidParenthesis = new MinRemoveValidParenthesis();
         String str1 = "()())()";
