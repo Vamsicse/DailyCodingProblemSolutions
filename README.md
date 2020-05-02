@@ -355,6 +355,38 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 ---
 
+#### Problem 48
+
+This problem was asked by Google.
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+
+``
+[a, b, d, e, c, f, g]
+``
+
+And the following inorder traversal:
+
+``
+[d, b, e, a, f, c, g]
+``
+
+You should return the following tree:
+
+``
+    a
+   / \
+  b   c
+ / \ / \
+d  e f  g
+``
+
+[Solution](solution/ConstructBTFromPreorderInorder.java)
+
+----
+
 #### Problem 49
 
 This problem was asked by Amazon.
