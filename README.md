@@ -549,6 +549,16 @@ Implement division of two positive integers without using the division, multipli
 
 ---
 
+#### Problem 90
+
+This question was asked by Google.
+
+Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
+
+[Solution](solution/RandomPickWithBlackList.java)
+
+---
+
 #### Problem 102
 
 This problem was asked by Lyft.
