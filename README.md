@@ -329,7 +329,7 @@ Do this in $O(N)$ time and $O(1)$ space.
 
 #### Problem 44
 
-This problem was asked by Google.
+This problem was asked by Google. Count Inversions.
 
 We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
 
@@ -358,6 +358,8 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 #### Problem 48
 
 This problem was asked by Google.
+
+Preorder and Inorder.
 
 Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
 
@@ -530,6 +532,8 @@ should become:
 #### Problem 86
 
 This problem was asked by Google.
+
+Remove Invalid Parenthesis.
 
 Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
 
