@@ -200,7 +200,7 @@ Do this in constant space and in one pass.
 
 #### Problem 27
 
-This problem was asked by Facebook.
+This problem was asked by Facebook. Balanced Parenthesis problem.
 
 Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
 
