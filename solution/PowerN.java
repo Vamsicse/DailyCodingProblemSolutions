@@ -17,10 +17,10 @@ public class PowerN {
             return 1;
         }
         temp = power(x, y/2);
-        if (y%2 == 0) {
+        if (y%2 == 0) { // Even Power
             return temp * temp;
         }
-        else {
+        else {   // Odd Power
             if(y > 0)
                 return temp * temp * x;
             else
