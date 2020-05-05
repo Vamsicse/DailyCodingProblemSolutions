@@ -4,7 +4,7 @@
  * While we iterate through elements find lowest buying point and then highest selling point.
  *
  * Time complexity : O(n). We traverse the list containing n elements only once.
- * Space complexity : O(1). Space is required to store buying and selling point.
+ * Space complexity : O(1). Space is required to store profit point.
  *
  * @author  Vamsi Krishna Myalapalli
  * @version 1.0
@@ -13,20 +13,15 @@
 public class BuySellStock {
 
     public static void maxProfit(int[] prices) {
-        int buy = Integer.MAX_VALUE;
-        int maxProfit = Integer.MIN_VALUE;
-        int sell=0;
-        for(int i = 0; i < prices.length; i++) {
-            if (prices[i] < buy) {
-                buy = prices[i];
-            }
-            else if (prices[i] - buy > maxProfit) {
-                sell = prices[i];
-                maxProfit = sell - buy;
-            }
+        int minprice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minprice)
+                minprice = prices[i];
+            else if (prices[i] - minprice > maxProfit)
+                maxProfit = prices[i] - minprice;
         }
         System.out.println("Max profit is: " + maxProfit);
-        System.out.println("Buy at: " + buy + ". Sell at: " + sell);
     }
 
     public static void main(String[] args) {
@@ -35,10 +30,10 @@ public class BuySellStock {
 }
 
 
+
 /*
 Output:
 —————————
 Max profit is: 68
-Buy at: 32. Sell at: 100
 
 */
