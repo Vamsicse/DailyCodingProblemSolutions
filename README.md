@@ -553,7 +553,7 @@ Implement division of two positive integers without using the division, multipli
 
 This question was asked by Google.
 
-Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
+Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform). Also referred as Random pick with black list.
 
 [Solution](solution/RandomPickWithBlackList.java)
 
