@@ -14,49 +14,50 @@ public class TrappingRainWater {
 
     // Runtime: 1ms, Memory: 39.4MB [2 Pointer Approach]
     static int findWater(int arr[]) {
-        int result = 0;
+        int water = 0;
+        int low = 0, high = arr.length - 1;
         int left_max = 0, right_max = 0;
-        int lo = 0, hi = arr.length - 1;
-        while (lo <= hi) {
-            if (arr[lo] < arr[hi]) {
-                if (arr[lo] > left_max)
-                    left_max = arr[lo];
+        while (low <= high) {
+            if (arr[low] < arr[high]) {
+                if (arr[low] > left_max)
+                    left_max = arr[low];
                 else
-                    result += left_max - arr[lo];
-                lo++;
+                    water += left_max - arr[low];
+                low++;
             } else {
-                if (arr[hi] > right_max)
-                    right_max = arr[hi];
+                if (arr[high] > right_max)
+                    right_max = arr[high];
                 else
-                    result += right_max - arr[hi];
-                hi--;
+                    water += right_max - arr[high];
+                high--;
             }
         }
-        return result;
+        return water;
     }
 
     // Runtime: 1ms, Memory: 39.2MB [DP Approach]
-    public int trap(int[] arr) {
+    public static int store(int[] arr) {
         int size = arr.length;
         if(size==0)
             return 0;
+        int water = 0;
         int[][] dp = new int[2][size];
         dp[0][0] = arr[0];
         dp[1][size-1] = arr[size-1];
-        int res = 0;
-        for(int i = 1;i<size;i++){
+        for(int i=1; i<size; i++) {
             dp[0][i] = Math.max(dp[0][i-1],arr[i]);
         }
-        for(int i = size-2;i>=0;i--){
+        for(int i=size-2; i>=0; i--){
             dp[1][i] = Math.max(dp[1][i+1],arr[i]);
-            res+=Math.min(dp[0][i],dp[1][i]) - arr[i];
+            water += Math.min(dp[0][i],dp[1][i]) - arr[i];
         }
-        return res;
+        return water;
     }
 
     public static void main(String[] args) {
         int arr[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        System.out.println("Maximum water that can be accumulated is " + findWater(arr));
+        System.out.println("[2 Pointer Approach]:  Maximum water that can be accumulated is " + findWater(arr));
+        System.out.println("[Dynamic Programming]: Maximum water that can be accumulated is " + store(arr));
     }
 }
 
@@ -66,6 +67,7 @@ public class TrappingRainWater {
 /*
 Output:
 —————————
-Maximum water that can be accumulated is 6
+[2 Pointer Approach]:  Maximum water that can be accumulated is 6
+[Dynamic Programming]: Maximum water that can be accumulated is 6
 
 */
