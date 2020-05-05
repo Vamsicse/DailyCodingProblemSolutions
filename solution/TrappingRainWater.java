@@ -35,23 +35,25 @@ public class TrappingRainWater {
         return result;
     }
 
-    // Runtime: 1ms, Memory: 39MB [DP Approach]
-    public int trap(int[] height) {
-        if(height.length==0)return 0;
-        int[][] dp = new int[2][height.length];
-        dp[0][0] = height[0];
-        dp[1][height.length-1] = height[height.length-1];
+    // Runtime: 1ms, Memory: 39.2MB [DP Approach]
+    public int trap(int[] arr) {
+        int size = arr.length;
+        if(size==0)
+            return 0;
+        int[][] dp = new int[2][size];
+        dp[0][0] = arr[0];
+        dp[1][size-1] = arr[size-1];
         int res = 0;
-        for(int i = 1;i<height.length;i++){
-            dp[0][i] = Math.max(dp[0][i-1],height[i]);
+        for(int i = 1;i<size;i++){
+            dp[0][i] = Math.max(dp[0][i-1],arr[i]);
         }
-        for(int i = height.length-2;i>=0;i--){
-            dp[1][i] = Math.max(dp[1][i+1],height[i]);
-            res+=Math.min(dp[0][i],dp[1][i]) - height[i];
+        for(int i = size-2;i>=0;i--){
+            dp[1][i] = Math.max(dp[1][i+1],arr[i]);
+            res+=Math.min(dp[0][i],dp[1][i]) - arr[i];
         }
         return res;
     }
-    
+
     public static void main(String[] args) {
         int arr[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         System.out.println("Maximum water that can be accumulated is " + findWater(arr));
@@ -64,8 +66,6 @@ public class TrappingRainWater {
 /*
 Output:
 —————————
-
 Maximum water that can be accumulated is 6
 
 */
-
