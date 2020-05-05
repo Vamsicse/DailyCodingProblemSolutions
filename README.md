@@ -667,7 +667,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 This problem was asked by Pivotal.
 
-Write an algorithm that finds the total number of set bits in all integers between 1 and N.
+Write an algorithm that finds the total number of set bits in all integers between 1 and N. Also referred as Counting Bits.
 
 [Solution](solution/CountingBits.java)
 
