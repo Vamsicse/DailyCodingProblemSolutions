@@ -421,7 +421,7 @@ set(key, value): sets key to value. If there are already n items in the cache an
 
 This problem was asked by Google.
 
-Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+Implement integer exponentiation. That is, implement the power pow(x, y) function, where x and y are integers and returns x^y.
 
 Do this faster than the naive method of repeated multiplication.
 
