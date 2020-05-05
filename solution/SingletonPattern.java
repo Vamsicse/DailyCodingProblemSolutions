@@ -31,6 +31,7 @@ class Logger {
     }
 }
 
+// Guaranteed Single Instance, Thread Safe, Serialization
 enum SingletonEnum {
     INSTANCE;
     int value;
