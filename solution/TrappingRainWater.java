@@ -42,20 +42,20 @@ public class TrappingRainWater {
             return 0;
         int water = 0;
         int[][] dp = new int[2][size];
-        dp[0][0] = arr[0];
-        dp[1][size-1] = arr[size-1];
-        for(int i=1; i<size; i++) {
+        dp[0][0] = arr[0];           // First element of array
+        dp[1][size-1] = arr[size-1]; // Last element of array
+        for(int i=1; i<size; i++) {  // Find biggest building from left
             dp[0][i] = Math.max(dp[0][i-1],arr[i]);
         }
-        for(int i=size-2; i>=0; i--){
-            dp[1][i] = Math.max(dp[1][i+1],arr[i]);
+        for(int i=size-2; i>=0; i--) {
+            dp[1][i] = Math.max(dp[1][i+1],arr[i]); // Find biggest building from right
             water += Math.min(dp[0][i],dp[1][i]) - arr[i];
         }
         return water;
     }
 
     public static void main(String[] args) {
-        int arr[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int arr[] = {4,0,2,1,3};// {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         System.out.println("[2 Pointer Approach]:  Maximum water that can be accumulated is " + findWater(arr));
         System.out.println("[Dynamic Programming]: Maximum water that can be accumulated is " + store(arr));
     }
