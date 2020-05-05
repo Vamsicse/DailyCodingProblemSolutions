@@ -10,6 +10,7 @@
  */
 public class PowerN {
 
+    // Runtime: 0ms, Memory: 36.5MB
     static float power(float x, int y) {
         float temp;
         if(y == 0) {
