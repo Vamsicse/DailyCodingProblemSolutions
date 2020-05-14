@@ -18,7 +18,7 @@ public class RegularExpression {
         System.out.println(regularExpression.isMatch(str, "v*"));
     }
 
-
+     // Runtime: 4ms, Memory:38.3 MB
      public boolean isMatch(String s, String p) {
         /**
          * dp: res[i][j]=is s[0,...,i-1] matched with p[0,...,j-1];
