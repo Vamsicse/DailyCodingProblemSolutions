@@ -5,6 +5,7 @@ import java.util.HashMap;
  * Approach: Use a Map and keep track of unique elements.
  *
  * Time Complexity: O(n)
+ * Space Complexity: O(k)
  *
  * @author Vamsi Krishna Myalapalli
  * @since 2019-12-27
