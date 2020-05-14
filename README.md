@@ -512,7 +512,7 @@ For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 
 
 You can assume all the integers in the array are unique.
 
-[Solution](solution/SearchRotatedSortedArray.java) - {Binary Search}
+[Solution](solution/SearchRotatedSortedArray.java) - {Approach: Binary Search}, {Difficulty: Medium}
 
 ---
 
