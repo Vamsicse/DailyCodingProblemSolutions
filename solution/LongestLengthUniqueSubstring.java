@@ -18,25 +18,24 @@ public class LongestLengthUniqueSubstring {
 
     // Runtime: 2ms, Memory: 39.8MB
     public int lengthOfLongestSubstring(String s) {
-        int fre[]=new int[256];
+        int fre[]=new int[128];
         int start=0, maxLen=0;
         for(int i=0;i<s.length();i++) {
-            char ch=s.charAt(i);  //char at i; check its occ in window;
+            char ch = s.charAt(i);  //char at i; check its occ in window;
             if(fre[ch-32]>0) {
                 //it means we cannot include it, now we need to remove from start unless count becomes zero;
                 while(fre[ch-32]>0) {
                     fre[s.charAt(start)-32]--;
                     start++;
                 }
-                fre[ch-32]++;
             }
             else {
-                fre[ch-32]++;
                 //increase size of window;
                 if(i-start+1>maxLen) {
                     maxLen=i-start+1; //i-start+1 is length of curr of window;
                 }
             }
+            fre[ch-32]++;
         }
         return maxLen;
     }
