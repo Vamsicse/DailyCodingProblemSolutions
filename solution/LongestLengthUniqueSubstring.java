@@ -1,8 +1,8 @@
 import java.util.HashMap;
 
 /**
- * Problem: FInd Longest length unique substring
- * Approach: Use HasMap to find duplicates.
+ * Problem: Find Longest length unique substring
+ * Approach: Use HashMap to find duplicates.
  *
  * Time Complexity: O(n)
  *
