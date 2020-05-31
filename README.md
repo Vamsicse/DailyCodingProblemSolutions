@@ -821,6 +821,18 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 
 ---
 
+#### Problem 184
+
+This problem was asked by Amazon.
+
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers [42, 56, 14], return 14.
+
+Solution=> https://www.geeksforgeeks.org/gcd-two-array-numbers/
+
+---
+
 #### Problem 189
 
 This problem was asked by Google.
