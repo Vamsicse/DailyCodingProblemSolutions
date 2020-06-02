@@ -811,7 +811,7 @@ Find the busiest period in the building, that is, the time with the most people 
 
 This problem was asked by Bloomberg.
 
-Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
+Determine whether there exists a one-to-one character mapping from one string s1 to another s2. (Isomorphic Strings)
 
 For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b to c, and c to d.
 
