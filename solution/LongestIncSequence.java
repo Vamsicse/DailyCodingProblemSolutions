@@ -17,8 +17,8 @@ public class LongestIncSequence {
     public static void main(String[] args) {
         int[] arr1 = new int[]{10,9,2,5,3,7,101,18};
         int[] arr2 = new int[]{0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
-        System.out.println(lengthOfLIS(arr1));
-        System.out.println(lengthOfLIS(arr2));
+        System.out.println(lengthOfLISUsingDPBS(arr1));
+        System.out.println(lengthOfLISUsingDPBS(arr2));
     }
 
     // Time Complexity: O(n^2)
@@ -49,10 +49,10 @@ public class LongestIncSequence {
         for (int num : nums) {
             int i = Arrays.binarySearch(dp, 0, len, num);
             if (i < 0) {
-                i = -(i + 1);
+                i = -(i + 1); // Get the current position of i in dp array and set it to positive
             }
             dp[i] = num;
-            if (i == len) {
+            if (i == len) { // If current number is bigger increment len
                 len++;
             }
         }
@@ -63,3 +63,14 @@ public class LongestIncSequence {
 
 
 // https://leetcode.com/articles/longest-increasing-subsequence/
+
+
+/*
+
+Output:
+---------------------------
+4
+6
+
+
+*/
