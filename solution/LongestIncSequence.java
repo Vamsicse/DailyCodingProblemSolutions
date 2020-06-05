@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 /**
  * Problem: Find Longest Increasing Subsequence
- * Approach: Use DP or DP with Binary Search
+ * Approach: Use DP
  *
  * Time Complexity:
  *         O(n^2)   - DP
@@ -10,7 +10,6 @@ import java.util.Arrays;
  * Space Complexity: O(n)
  *
  * @author Vamsi Krishna Myalapalli
- * @version 1.0
  * @since 2019-12-27
  */
 public class LongestIncSequence {
@@ -22,6 +21,7 @@ public class LongestIncSequence {
         System.out.println(lengthOfLIS(arr2));
     }
 
+    // Time Complexity: O(n^2)
     public static int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -41,7 +41,8 @@ public class LongestIncSequence {
         }
         return maxans;
     }
-    
+
+    // Time Complexity: O(nlogn)
     public static int lengthOfLISUsingDPBS(int[] nums) {
         int[] dp = new int[nums.length];
         int len = 0;
@@ -59,5 +60,6 @@ public class LongestIncSequence {
     }
 
 }
+
 
 // https://leetcode.com/articles/longest-increasing-subsequence/
