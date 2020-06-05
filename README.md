@@ -827,7 +827,7 @@ For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b
 
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 
-[Solution](solution/IsomorphicStrings.java) {Approach: HashMap/Array} {Difficulty: Easy}
+[Solution](solution/IsomorphicStrings.java) {Approach: HashMap/Array, Difficulty: Easy}
 
 ---
 
@@ -899,7 +899,7 @@ This problem was asked by Netflix.
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a^2 + b^2 = c^2.
 
-[Solution](solution/PythagoreanTriplets.java)
+[Solution](solution/PythagoreanTriplets.java) {Approach: Sort and Slide, Difficulty: Easy}
 
 ---
 
@@ -921,10 +921,19 @@ Write a program to merge two binary trees. Each node in the new tree should hold
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
-[Solution](solution/MergeBinaryTrees.java) {Recursion}
+[Solution](solution/MergeBinaryTrees.java) {Approach: Recursion, Difficulty: Medium}
 
 ---
 
+#### Problem 364
+
+This problem was asked by Facebook.
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
+
+[Solution](solution/LongestIncSequence.java) {Approach: DP, Difficulty: Medium}
+
+---
 
 #### Problem 366
 
@@ -952,7 +961,7 @@ Example 2:
 Input: nums = [1], k = 1
 Output: [1]
 
-[Solution](solution/TopKFrequentElements.java)
+[Solution](solution/TopKFrequentElements.java)   {Approach: DP, Difficulty: Easy}
 
 ---
 
@@ -972,7 +981,7 @@ Output: 3
 
 There are at-most three trains at a time (time between 11:00 to 11:20)
 
-[Solution](solution/MinimumPlatforms.java)
+[Solution](solution/MinimumPlatforms.java) {Approach: Sort and Slide, Difficulty: Easy}
 
 ---
 
