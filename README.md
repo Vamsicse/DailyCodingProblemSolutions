@@ -761,6 +761,16 @@ First element is 1, so can only go to 3. Second element is 3, so can make at mos
 
 ---
 
+#### Problem 131
+
+This question was asked by Snapchat.
+
+Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
+
+[Solution](solution/CloneLinkedListWithRandomPointer.java) {Difficulty: Medium, Approach:Recursion}
+
+----
+
 #### Problem 133
 
 This problem was asked by Amazon.
