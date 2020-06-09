@@ -925,6 +925,16 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ---
 
+#### Problem 338
+
+This problem was asked by Facebook.
+
+Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (0110 in binary), return 9 (1001).
+
+[Solution](solution/NextIntegerWithSameTotalBits.java) {Approach: Bitwise Operations, Difficulty: Medium}
+
+---
+
 #### Problem 364
 
 This problem was asked by Facebook.
