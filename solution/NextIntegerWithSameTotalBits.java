@@ -16,6 +16,7 @@ public class NextIntegerWithSameTotalBits {
         System.out.println(findNextNumWithSameTotalSetBits(11));
     }
 
+    // Approach 1
     static int findNextNumberWithSameTotalSetBits(int num) {
         int rightOne, nextHigherOneBit, rightOnesPattern, next = 0;
         if(num > 0) {
@@ -40,12 +41,14 @@ public class NextIntegerWithSameTotalBits {
         return next;
     }
 
+    // Approach 2
     static int findNextNumWithSameTotalSetBits(int num) {
         int setBits = countSetBitsInNumber(num);
         while (countSetBitsInNumber(++num) != setBits) { }
         return num;
     }
 
+    // Utility method for Approach 2
     static int countSetBitsInNumber(int num) {
         int count=0;
         while (num!=0) {
