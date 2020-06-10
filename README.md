@@ -957,6 +957,16 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 
 ---
 
+#### Problem 340
+
+This problem was asked by Google.
+
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)], return [(-1, -1), (1, 1)].
+
+[Solution](solution/KClosestPointsToOrigin.java)   {Approach: Heap, Difficulty: Medium}
+
+---
+
 #### Problem 364
 
 This problem was asked by Facebook.
@@ -993,7 +1003,7 @@ Example 2:
 Input: nums = [1], k = 1
 Output: [1]
 
-[Solution](solution/TopKFrequentElements.java)   {Approach: DP, Difficulty: Easy}
+[Solution](solution/TopKFrequentElements.java)   {Approach: Heap, Difficulty: Easy}
 
 ---
 
