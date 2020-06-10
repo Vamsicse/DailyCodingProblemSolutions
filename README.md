@@ -980,9 +980,9 @@ In a row of chairs. Make the person sit as far as possible.
 
 #### Problem 367
 
-This problem was asked by Walmart Labs.
+TopKFrequentElements. This problem was asked by Walmart Labs.
 
-Find TopKFrequentElements in a list.
+Find Top k frequent in a list.
 Given a non-empty array of integers, return the k most frequent elements.
 
 Example 1:
