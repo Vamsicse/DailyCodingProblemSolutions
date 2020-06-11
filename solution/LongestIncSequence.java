@@ -21,7 +21,7 @@ public class LongestIncSequence {
         System.out.println(lengthOfLISUsingDPBS(arr2));
     }
 
-    // Time Complexity: O(n^2)
+    // Approach1, Time Complexity: O(n^2)
     public static int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -42,7 +42,7 @@ public class LongestIncSequence {
         return maxans;
     }
 
-    // Time Complexity: O(nlogn)
+    // Approach2, Time Complexity: O(nlogn)
     public static int lengthOfLISUsingDPBS(int[] nums) {
         int[] dp = new int[nums.length];
         int len = 0;
