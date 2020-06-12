@@ -1063,11 +1063,11 @@ Given two non-negative integers num1 and num2 represented as string, return the 
 
 #### Problem 371
 
-Check if given string is Palindrome (Ignore white spaces). 
+Check if given string is Palindrome (Ignore white spaces).  {LeetCode: Valid Palidrome}
 
 [Solution](solution/Palindrome.java)   {Difficulty: Easy}
 
-Check Palindrome (Once character removal is allowed)
+Check Palindrome. Given a non-empty string s, you may delete at most one character. Judge whether you can make it a palindrome. (Once character removal is allowed) {LeetCode: Valid Palidrome II}
 
 [Solution](solution/PalindromeOneCharRemove.java)   {Difficulty: Easy}
 
