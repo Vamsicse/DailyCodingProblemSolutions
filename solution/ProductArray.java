@@ -15,46 +15,28 @@
  * @since   2019-12-27
  */
 class ProductArray {
-    void productArray(int arr[], int n)
-    {
-        if (n == 1) {
-            System.out.print("0");
-            return;
-        }
-        int i, temp = 1;
-        int prod[] = new int[n];
-        for (int j = 0; j < n; j++)
-            prod[j] = 1; 
-  
-        /* In this loop, temp variable contains product of 
-           elements on left side excluding arr[i] */
-        for (i = 0; i < n; i++) {
-            prod[i] = temp;
-            temp *= arr[i];
-        }
 
-        /* Initialize temp to 1 for product on right side */
-        temp = 1; 
-  
-        /* In this loop, temp variable contains product of 
-           elements on right side excluding arr[i] */
-        for (i = n - 1; i >= 0; i--) {
-            prod[i] *= temp;
-            temp *= arr[i];
+    // Runtime: 1ms, Memory: 48.1MB
+    public int[] productExceptSelf(int[] nums) {
+        int curr = 1;
+        int[] res = new int[nums.length];
+        for (int i = 0; i < nums.length; i++){
+            res[i] = curr;
+            curr *= nums[i];
         }
-
-        for (i = 0; i < n; i++)
-            System.out.print(prod[i] + " ");
-
-        return;
+        curr = 1;
+        for (int i = nums.length - 1; i >= 0; i--){
+            res[i] *= curr;
+            curr *= nums[i];
+        }
+        return res;
     }
 
     public static void main(String[] args) {
         ProductArray pa = new ProductArray();
         int arr[] = { 10, 3, 5, 6, 2 };
-        int n = arr.length;
-        System.out.println("The product array is : ");
-        pa.productArray(arr, n);
+        System.out.println("Given Array is " + Arrays.toString(arr));
+        System.out.println("The product array is : " + Arrays.toString(pa.productExceptSelf(arr)));
     }
 } 
 
