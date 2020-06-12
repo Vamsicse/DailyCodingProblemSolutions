@@ -1061,3 +1061,16 @@ Given two non-negative integers num1 and num2 represented as string, return the 
 
 ---
 
+#### Problem 371
+
+Check if given string is Palindrome (Ignore white spaces). 
+
+[Solution](solution/Palindrome.java)   {Difficulty: Easy}
+
+Check Palindrome (Once character removal is allowed)
+
+[Solution](solution/PalindromeOneCharRemove.java)   {Difficulty: Easy}
+
+---
+
+
