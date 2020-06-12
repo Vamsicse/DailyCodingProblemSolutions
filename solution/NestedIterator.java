@@ -30,6 +30,7 @@ interface NestedInteger {
       public List<NestedInteger> getList();
   }
 
+// Runtime: 2ms, Memory: 41.9MB
 public class NestedIterator implements Iterator<Integer> {
 
     List<Integer> list;
