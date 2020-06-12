@@ -1051,3 +1051,13 @@ This problem was asked by Amazon, Facebook.
 
 ---
 
+#### Problem 370
+
+Add Strings numerics.
+
+Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
+
+[Solution](solution/AddStringsNumeric.java)   {Difficulty: Easy}
+
+---
+
