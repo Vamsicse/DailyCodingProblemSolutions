@@ -762,6 +762,18 @@ First element is 1, so can only go to 3. Second element is 3, so can make at mos
 
 ---
 
+#### Problem 118
+
+This problem was asked by Walmart Labs, Google.
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+[Solution](solution/SquaresOfSortedArray.java) {Approach: 2 Pointer, Difficulty: Easy}
+
+---
+
 #### Problem 130
 
 This problem was asked by Facebook.
