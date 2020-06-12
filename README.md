@@ -1053,7 +1053,7 @@ This problem was asked by Amazon, Facebook.
 
 #### Problem 370
 
-Add Strings numerics.
+Add Strings numerics and add binary strings. (Add numbers)
 
 Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
 
