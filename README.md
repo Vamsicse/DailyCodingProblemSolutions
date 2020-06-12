@@ -204,9 +204,10 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 #### Problem 21
 
-This problem was asked by Illumina and Snapchat.
+This problem was asked by Illumina, Snapchat, Facebook.
 
-Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required. (Also referred as minimum number of platforms required).
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required. 
+Also referred as minimum number of platforms required/minimum platforms/minimum meeting rooms/minimum numbers of meeting rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
