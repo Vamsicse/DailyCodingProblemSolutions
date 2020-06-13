@@ -25,6 +25,16 @@ Follow-up: what if you can't use division?
 
 ---
 
+#### Problem 3
+
+This problem was asked by Google.
+
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+[Solution](solution/BinaryTreeSerializeDeserialize.java) {Approach: Recursion, Difficulty: Hard}
+
+---
+
 #### Problem 4
 
 This problem was asked by Stripe.
@@ -36,16 +46,6 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 You can modify the input array in-place.
 
 [Solution](solution/SmallestPositiveNumber.java)
-
----
-
-#### Problem 3
-
-This problem was asked by Google.
-
-Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
-
-[Solution](solution/BinaryTreeSerializeDeserialize.java) {Approach: Recursion, Difficulty: Hard}
 
 ---
 
