@@ -24,6 +24,7 @@ public class CountDigitDecodes {
         System.out.println("# of possible combinations for " + str + " is: " + countDecodes(str));
     }
 
+    // Runtime: 1ms, Memory: 39.4MB
     private static int countDecodes(String s) {
         char digits[] = s.toCharArray();
         int n = s.length();
