@@ -80,6 +80,6 @@ public class BinaryTreeSerializeDeserialize {
 Output:
 ——————————————————————
 
-76 32 1 0 # # # # 100 # #
+76 32 1 # # # 100 # # 
 
 */
