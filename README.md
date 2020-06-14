@@ -639,7 +639,7 @@ For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 
   
    longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
-[Solution](solution/LongestIncSequence.java)
+[Solution](solution/LongestIncSequence.java) {Approach: DP with Binary Search, Difficulty: Medium}
 
 ---
 
