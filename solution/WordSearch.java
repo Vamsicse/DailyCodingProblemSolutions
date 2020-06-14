@@ -2,7 +2,7 @@
  * Problem: Search word in 2D grid.
  * Approach: Use DFS
  *
- * Time Complexity: O(m*n*4^s)
+ * Time Complexity: O(m*n*4^s) {m,n,s - rows,columns,input length}
  * Space Complexity: O(1)
  *
  * @author Vamsi Krishna Myalapalli
