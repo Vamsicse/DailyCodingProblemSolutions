@@ -581,10 +581,13 @@ Given a 2D matrix of characters and a target word, write a function that returns
 
 For example, given the following matrix:
 
+````
 [['F', 'A', 'C', 'I'],
  ['O', 'B', 'Q', 'P'],
  ['A', 'N', 'O', 'B'],
  ['M', 'A', 'S', 'S']]
+ ````
+ 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
 [Solution2](solution/WordSearch.java) {Approach: DFS, Difficulty: Medium}
