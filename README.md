@@ -569,7 +569,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 
-[Solution2](solution/PowerN.java) {Recursion}
+[Solution](solution/PowerN.java) {Recursion}
 
 ---
 
@@ -590,7 +590,7 @@ For example, given the following matrix:
  
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-[Solution2](solution/WordSearch.java) {Approach: DFS, Difficulty: Medium}
+[Solution](solution/WordSearch.java) {Approach: DFS, Difficulty: Medium}
 
 ---
 
