@@ -432,7 +432,7 @@ For example, given the string "race", you should return "ecarace", since we can 
 
 As another example, given the string "google", you should return "elgoogle".
 
-[Solution](solution/MinInsertsToMakePalindrome.java)
+[Solution](solution/MinInsertsToMakePalindrome.java) {Approach: DP, Difficulty: Hard}
 
 ---
 
