@@ -159,7 +159,8 @@ record(order_id): adds the order_id to the log get_last(i): gets the ith last el
 
 ---
 
-Problem 17
+#### Problem 17
+
 This problem was asked by Google.
 
 Suppose we represent our file system by a string in the following manner:
