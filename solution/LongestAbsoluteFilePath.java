@@ -14,6 +14,8 @@
  */
 
 public class LongestAbsoluteFilePath {
+    
+    // Runtime: 1ms, Memory: 39MB
     public int lengthLongestPath(String input) {
         String[] arr = input.split("\n");
         int[] max = new int[1];
