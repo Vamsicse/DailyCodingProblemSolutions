@@ -949,6 +949,16 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
 ---
 
+#### Problem 120
+
+This problem was asked by Microsoft.
+
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
+
+[Solution](solution/SingletonTwist.java) {Difficulty: Easy}
+
+---
+
 #### Problem 130
 
 This problem was asked by Facebook.
