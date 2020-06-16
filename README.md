@@ -1151,6 +1151,18 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 ---
 
+#### Problem 303
+
+This problem was asked by Microsoft.
+
+Given a clock time in hh:mm format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
+
+[Solution](solution/AngleBetweenClockHands.java) {Approach: Formula, Difficulty: Easy}
+
+---
+
 #### Problem 310
 
 This problem was asked by Pivotal.
