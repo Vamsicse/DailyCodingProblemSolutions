@@ -919,6 +919,24 @@ First element is 1, so can only go to 3. Second element is 3, so can make at mos
 
 ---
 
+#### Problem 107
+
+This problem was asked by Microsoft.
+
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+
+```
+  1
+ / \
+2   3
+   / \
+  4   5
+  ```
+  
+[Solution](solution/BinaryTreeLevelOrderTraversal.java) {Difficulty: Medium}
+
+---
+
 #### Problem 118
 
 This problem was asked by Walmart Labs, Google.
