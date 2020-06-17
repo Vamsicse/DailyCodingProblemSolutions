@@ -1113,6 +1113,28 @@ Given an array and a number k that's smaller than the length of the array, rotat
 
 ---
 
+#### Problem 201
+
+This problem was asked by Google.
+
+You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. 
+
+For example, [[1], [2, 3], [1, 5, 1]] represents the triangle:
+
+```
+  1
+ 2 3
+1 5 1
+```
+
+We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, 1 -> 2 -> 1. The weight of the path is the sum of the entries.
+
+Write a program that returns the weight of the minimum weight path.
+
+[Solution](solution/TriangleMinPathTopToBottom.java)
+
+---
+
 #### Problem 210
 
 This problem was asked by Apple.
