@@ -897,11 +897,14 @@ The word can be constructed from letters of sequentially adjacent cell, where "a
 
 For example, given the following board:
 
+```
 [
   ['A','B','C','E'],
   ['S','F','C','S'],
   ['A','D','E','E']
 ]
+````
+
 exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(board, "ABCB") returns false.
 
 [Solution](solution/WordSearch2DGrid.java)
