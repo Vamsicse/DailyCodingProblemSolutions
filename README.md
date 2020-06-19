@@ -642,7 +642,7 @@ For example, given the following matrix:
  
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-[Solution](solution/WordSearch.java) {Approach: DFS, Difficulty: Medium}
+[Solution](solution/WordSearch2DGrid.java) {Approach: DFS, Difficulty: Medium}
 
 ---
 
