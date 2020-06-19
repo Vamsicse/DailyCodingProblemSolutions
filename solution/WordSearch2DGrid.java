@@ -2,13 +2,13 @@
  * Problem: Search word in 2D grid.
  * Approach: Use DFS
  *
- * Time Complexity: O(m*n*4^s) {m,n,s - rows,columns,input length}
+ * Time Complexity: O(m*n*4^s)  {m,n,s - rows,columns,input length}
  * Space Complexity: O(1)
  *
  * @author Vamsi Krishna Myalapalli
  * @since 2019-12-27
  */
-class WordSearch {
+class WordSearch2DGrid {
 
     // Runtime: 4-7ms, Memory: 42.1MB
     public boolean exist(char[][] board, String word) {
@@ -36,7 +36,7 @@ class WordSearch {
     }
 
     public static void main(String[] args) {
-        WordSearch obj = new WordSearch();
+        WordSearch2DGrid obj = new WordSearch2DGrid();
         char[][] board = {  {'F', 'A', 'C', 'I'},
                             {'O', 'B', 'Q', 'P'},
                             {'A', 'N', 'O', 'B'},
@@ -51,7 +51,7 @@ class WordSearch {
 
 /*
 Output:
-——————————————————— 
+———————————————————
 true
 true
 true
