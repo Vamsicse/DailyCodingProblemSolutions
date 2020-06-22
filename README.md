@@ -231,7 +231,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-[Solution](solution/MinimumCostPainting.java) {Dynamic Programming}
+[Solution](solution/PaintHouse.java) {Approach: Dynamic Programming, Difficulty: Medium}
 
 ---
 
