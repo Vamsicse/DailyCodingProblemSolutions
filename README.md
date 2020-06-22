@@ -1037,7 +1037,7 @@ For example, the inorder successor of 22 is 30.
 ```
 You can assume each node has a parent pointer.
 
-[Solution](solution/BinaryTreeIterator.java)
+[Solution](solution/BSTIterator.java)
 
 ---
 
