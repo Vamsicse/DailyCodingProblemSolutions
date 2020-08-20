@@ -1227,7 +1227,7 @@ For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you 
 
 This problem was asked by Netflix.
 
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a^2 + b^2 = c^2.
+Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythagorean triplet (a, b, c) is defined by the equation a^2 + b^2 = c^2.
 
 [Solution](solution/PythagoreanTriplets.java) {Approach: Sort and Slide, Difficulty: Easy}
 
