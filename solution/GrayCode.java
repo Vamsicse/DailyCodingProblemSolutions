@@ -25,7 +25,7 @@ public class GrayCode {
         List<Integer> code = new ArrayList<>();
         // i-th code sequence of the gray-code
         for (int i = 0; i < 1 << n; i++) {
-            code.add(i ^ (i >> 1));
+            code.add(i ^ (i >> 1));  // i ^ (i >> 1) gives binary number
         }
         return code;
     }
