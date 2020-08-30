@@ -1055,6 +1055,20 @@ Follow-up: Can you do this in linear time and constant space?
 
 ---
 
+#### Problem 148
+
+This problem was asked by Apple.
+
+Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits n, generate a possible gray code for it.
+
+For example, for n = 2, one gray code would be [00, 01, 11, 10].
+
+[Solution](solution/GrayCode.java) {Approach: Iteration, XOR, Shift Left; Difficulty: Medium}
+
+---
+
 #### Problem 166
 
 This problem was asked by Uber.
