@@ -1213,6 +1213,16 @@ Bonus: What input n <= 1000000 gives the longest sequence?
 
 ---
 
+### Problem 233
+
+This problem was asked by Apple.
+
+Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
+
+[Solution](solution/Fibonacci.java)
+
+---
+
 #### Problem 245
 
 This problem was asked by Yelp.
