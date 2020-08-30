@@ -1281,6 +1281,16 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ---
 
+### Problem 337
+
+This problem was asked by Apple.
+
+Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+
+[Solution](solution/ShuffleElements.java) {Approach: Iteration; Difficulty: Medium}
+
+---
+
 #### Problem 338
 
 This problem was asked by Facebook.
