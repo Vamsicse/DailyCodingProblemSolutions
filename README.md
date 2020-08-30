@@ -987,6 +987,18 @@ For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb
 
 ---
 
+#### Problem 111
+
+This problem was asked by Google.
+
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+[Solution](solution/FindAnagramsInString.java) {Approach: Iteration, Difficulty: Medium}
+
+---
+
 #### Problem 118
 
 This problem was asked by Walmart Labs, Google.
