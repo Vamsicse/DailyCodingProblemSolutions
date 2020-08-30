@@ -999,6 +999,18 @@ For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
 ---
 
+#### Problem 113
+
+This problem was asked by Google.
+
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+
+Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+[Solution](solution/ReverseWordsInString.java) {Approach: Iteration, Difficulty: Easy}
+
+---
+
 #### Problem 118
 
 This problem was asked by Walmart Labs, Google.
