@@ -975,6 +975,18 @@ Print the nodes in a binary tree level-wise. For example, the following should p
 
 ---
 
+#### Problem 108
+
+This problem was asked by Google.
+
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+
+For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
+
+[Solution](solution/RotatedStringSearch.java) {Approach: Iteration, Difficulty: Easy/Medium}
+
+---
+
 #### Problem 118
 
 This problem was asked by Walmart Labs, Google.
