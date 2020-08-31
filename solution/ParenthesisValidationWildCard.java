@@ -1,7 +1,8 @@
 /**
  * Problem: Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid.
  *          * can act as substitute for '(' or ')'
- * Approach:
+ * Approach: Keep lo, hi counters. Increment lo for open and hi for all except )
+ *           In the end if lo has 0 then its a valid string.
  *
  * Time Complexity: O(n)
  * Space Complexity: O(1)
