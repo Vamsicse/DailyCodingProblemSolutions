@@ -1131,6 +1131,18 @@ For example, for n = 2, one gray code would be [00, 01, 11, 10].
 
 ---
 
+#### Problem 159
+
+This problem was asked by Google.
+
+Given a string, return the first recurring character in it, or null if there is no recurring chracter.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[Solution](solution/FirstRecurringCharacter.java) {Approach: HashSet; Difficulty: Easy}
+
+---
+
 #### Problem 166
 
 This problem was asked by Uber.
