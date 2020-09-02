@@ -1143,6 +1143,16 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 
 ---
 
+#### Problem 164
+
+This problem was asked by Google.
+
+You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[Solution](solution/FindDuplicate.java) {Approach: Array; Difficulty: Medium}
+
+---
+
 #### Problem 166
 
 This problem was asked by Uber.
