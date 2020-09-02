@@ -629,9 +629,9 @@ For example, pow(2, 10) should return 1024.
 
 This problem was asked by Microsoft.
 
-Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found, by going left-to-right, or up-to-down.
 
-For example, given the following matrix:
+For example, given the following:
 
 ````
 [['F', 'A', 'C', 'I'],
