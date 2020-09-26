@@ -1,6 +1,6 @@
 # Commonly asked Coding Problems
 
-#### All my solutions are tested in LeetCode for best performance. They are solved using JAVA.
+#### All my solutions are tested in LeetCode for best performance. Language Used: JAVA
 
 ---
 #### Problem 1
