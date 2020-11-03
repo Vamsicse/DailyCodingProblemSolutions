@@ -55,13 +55,15 @@ public class RemoveNthLastNode {
         return dummy.next;
     }
 
+    static class Node {
+        int data;
+        Node next;
+        Node(int x) { data = x; }
+    }
+
 }
 
-class Node {
-    int data;
-    Node next;
-    Node(int x) { data = x; }
-}
+
 
 
 /*
