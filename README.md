@@ -1131,6 +1131,16 @@ For example, for n = 2, one gray code would be [00, 01, 11, 10].
 
 ---
 
+#### Problem 153
+
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+Shortest word distance.
+
+[Solution](solution/ShortestWordDistance.java) {Approach: Slide and track; Difficulty: Medium}
+
+---
+
 #### Problem 159
 
 This problem was asked by Google.
