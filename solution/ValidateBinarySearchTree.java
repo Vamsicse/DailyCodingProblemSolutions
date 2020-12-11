@@ -53,11 +53,9 @@ public class ValidateBinarySearchTree {
     {
         Node root = null;
         int[] keys = { 15, 10, 20, 8, 12, 16, 25 };
-
         for (int key : keys) {
             root = insert(root, key);
         }
-
         // swap left and right nodes for testing
         swap(root);
         isBST(root);

@@ -1044,6 +1044,18 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 ---
 
+#### Problem 126
+
+This problem was asked by Facebook.
+
+Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5, 6] rotated by two becomes [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+{Same as #197}
+
+[Solution](solution/ArrayRotate.java) {Approach: Using Reverse, Difficulty: Medium}
+
+---
+
 #### Problem 130
 
 This problem was asked by Facebook.
@@ -1148,7 +1160,19 @@ Find an efficient algorithm to find the smallest distance (measured in number of
 
 Shortest word distance.
 
-[Solution](solution/ShortestWordDistance.java) {Approach: Slide and track; Difficulty: Medium}
+[Solution](solution/ShortestWordDistance.java) {Approach: Slide and track, Difficulty: Medium}
+
+---
+
+#### Problem 157
+
+This problem was asked by Amazon.
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
+
+[Solution](solution/PalindromePermutation.java) {Approach: HashSet, Difficulty: Medium}
 
 ---
 
