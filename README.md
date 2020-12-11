@@ -1160,7 +1160,19 @@ Find an efficient algorithm to find the smallest distance (measured in number of
 
 Shortest word distance.
 
-[Solution](solution/ShortestWordDistance.java) {Approach: Slide and track; Difficulty: Medium}
+[Solution](solution/ShortestWordDistance.java) {Approach: Slide and track, Difficulty: Medium}
+
+---
+
+#### Problem 157
+
+This problem was asked by Amazon.
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
+
+[Solution](solution/PalindromePermutation.java) {Approach: HashSet, Difficulty: Medium}
 
 ---
 
