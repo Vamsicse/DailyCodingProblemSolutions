@@ -18,7 +18,7 @@ public class Once {
         List<Integer> list = Arrays.asList(2, 4, 6, 8, 10, 2, 6, 10, 10);
         new Once().findSingles(list);
         int[] arr = {6, 1, 3, 3, 3, 6, 6, 8, 8};
-        System.out.println(getSingle(arr, arr.length));
+        System.out.println(getSingle(arr));
     }
 
     // TC: O(n), SC: O(n), Runtime: 4 ms, Memory: 39.7 MB
@@ -41,8 +41,8 @@ public class Once {
     }
 
     // TC: O(n), SC: O(1), Runtime: 0 ms, Memory: 38.9 MB
-    private static int getSingle(int arr[], int n) {
-        int ones = 0, twos = 0;
+    private static int getSingle(int arr[]) {
+        int ones = 0, twos = 0, n = arr.length;
         int common_bit_mask;
 
         for (int i = 0; i < n; i++) {
@@ -59,6 +59,16 @@ public class Once {
             twos &= common_bit_mask;
         }
         return ones;
+    }
+
+    // This method works only when every element appears twice except for one
+    // Runtime: 1ms, Memory: 39MB
+    public int singleNumber(int[] nums) {
+        int once = nums[0];
+        for(int i=1 ; i<nums.length ; i++) {
+            once = once^nums[i];
+        }
+        return once;
     }
 
 }
