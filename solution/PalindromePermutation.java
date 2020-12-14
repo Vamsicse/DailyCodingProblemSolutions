@@ -2,9 +2,9 @@ import java.util.HashSet;
 
 /**
  * Problem: Given a string, determine whether any permutation of it is a palindrome.
- * Approach: If a string can form a palindrome, it should contain characters with even number of occurences
- *           & one character with odd number of occurences, or only characters with even number of occurences.
- *           We can use a set to record the characters with odd number of occurences.
+ * Approach: If a string can form a palindrome, it should contain characters with even number of occurrences
+ *           & one character with odd number of occurrences, or only characters with even number of occurrences.
+ *           We can use a set to record the characters with odd number of occurrences.
  *           Traverse the given string s, if we meet a character odd number of times, put it in the set, otherwise remove it.
  *           Return whether the number of characters in the set is 0 or 1.
  *
