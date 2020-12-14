@@ -484,7 +484,7 @@ For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], retu
 
 Do this in $O(N)$ time and $O(1)$ space.
 
-[Solution](solution/Once.java)
+[Solution](solution/Once.java) {Approach: HashMap/BitwiseOperations, Difficulty: Easy/Medium}
 
 ----
 
@@ -605,7 +605,7 @@ set(key, value): sets key to value. If there are already n items in the cache an
 
 [Solution1](solution/LRUCache.java) - {Using Linked List} Moderate
 
-[Solution2](solution/LRU.java) - {Using DeQueue} Easy
+[Solution2](solution/LRU.java) - {Approach: Use DeQueue, Difficulty: Easy}
 
 ---
 
@@ -635,7 +635,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 
-[Solution](solution/PowerN.java) {Recursion}
+[Solution](solution/PowerN.java) {Approach: Recursion}
 
 ---
 
