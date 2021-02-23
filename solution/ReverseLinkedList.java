@@ -34,16 +34,16 @@ public class ReverseLinkedList {
     }
 
     // Iteratively reverse a linked list from position `m` to `n`
-    public static Test.Node reverseRange(Test.Node head, int m, int n) {
-        Test.Node curr = head, prev = null;
+    public static Node reverseRange(Node head, int m, int n) {
+        Node curr = head, prev = null;
         for (int i = 1; curr != null && i < m; i++) { // 1. Skip first `m` nodes
             prev = curr;
             curr = curr.next;
         }
-        Test.Node start = curr, end = null;  // prev now points to (m-1)'th node 'curr' now points to m'th node
+        Node start = curr, end = null;  // prev now points to (m-1)'th node 'curr' now points to m'th node
         // 2. Traverse and reverse the sublist from position `m` to `n`
         for (int i = 1; curr != null && i <= n - m + 1; i++) {
-            Test.Node next = curr.next; // Take note of the next node
+            Node next = curr.next; // Take note of the next node
             curr.next = end;  // move the current node onto the `end`
             end = curr;
             curr = next;  // move to the next node
