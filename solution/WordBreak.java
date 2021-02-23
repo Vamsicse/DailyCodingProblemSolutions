@@ -18,15 +18,15 @@ public class WordBreak {
 
     public static void main(String[] args) {
         WordBreak wordBreak = new WordBreak();
-        List<String> dictionary1 = List.of("quick", "brown", "the", "fox");
+        List<String> dictionary1 = java.util.Arrays.asList("quick", "brown", "the", "fox");
         String str1 = "thequickbrownfox";
         System.out.println(wordBreak.wordBreakDP(str1, dictionary1));
         System.out.println(wordBreak.wordBreakBFS(str1, dictionary1));
-        List<String> dictionary2 = List.of("bed", "bath", "bedbath", "and", "beyond");
+        List<String> dictionary2 = java.util.Arrays.asList("bed", "bath", "bedbath", "and", "beyond");
         String str2 = "bedbathandbeyond";
         System.out.println(wordBreak.wordBreakDP(str2, dictionary2));
         System.out.println(wordBreak.wordBreakBFS(str2, dictionary2));
-        List<String> dictionary3 = List.of("cats", "dog", "sand", "and", "cat");
+        List<String> dictionary3 = java.util.Arrays.asList("cats", "dog", "sand", "and", "cat");
         String str3 = "catsandog";
         System.out.println(wordBreak.wordBreakDP(str3, dictionary3));
         System.out.println(wordBreak.wordBreakBFS(str3, dictionary3));
