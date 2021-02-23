@@ -1597,4 +1597,14 @@ Check Palindrome. Given a non-empty string s, you may delete at most one charact
 
 ---
 
+#### Problem 372
 
+Find First and Last Position of Element in Sorted Array.  {LeetCode: #34}
+
+Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+If target is not found in the array, return [-1, -1].
+
+[Solution](solution/ElementFirstLastPositionSortedArray.java)   {Approach: Binary Search, Difficulty: Medium}
+
+---
