@@ -1608,3 +1608,13 @@ If target is not found in the array, return [-1, -1].
 [Solution](solution/ElementFirstLastPositionSortedArray.java)   {Approach: Binary Search, Difficulty: Medium}
 
 ---
+
+#### Problem 373
+
+Search Insert Position.  {LeetCode: #35}
+
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+[Solution](solution/SearchInsertPosition.java)   {Approach: Binary Search, Difficulty: Medium}
+
+---
