@@ -4,7 +4,7 @@
  *          LeetCode: 377
  * Approach: Use Binary Search
  *
- * Time Complexity: O(logn)
+ * Time Complexity: O(n*n)
  * Auxiliary Space: O(1)
  *
  * @author Vamsi Krishna Myalapalli
