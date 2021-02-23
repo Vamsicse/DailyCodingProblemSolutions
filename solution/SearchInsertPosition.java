@@ -12,6 +12,7 @@
  */
 public class SearchInsertPosition {
 
+    // Runtime: 0ms, Memory: 38.4MB
     public static int searchInsert(int[] nums, int target) {
         if(target< nums[0])
             return 0;
