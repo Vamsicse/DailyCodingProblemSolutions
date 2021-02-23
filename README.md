@@ -1618,3 +1618,13 @@ Given a sorted array of distinct integers and a target value, return the index i
 [Solution](solution/SearchInsertPosition.java)   {Approach: Binary Search, Difficulty: Medium}
 
 ---
+
+#### Problem 374
+
+Combination Sum 4.  {LeetCode: #377}
+
+Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.
+
+[Solution](solution/CombinationSum4.java)   {Approach: DP, Difficulty: Medium}
+
+---
