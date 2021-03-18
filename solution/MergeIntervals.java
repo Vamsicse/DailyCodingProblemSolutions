@@ -32,7 +32,7 @@ public class MergeIntervals {
     }
 
     private static List<Interval> merge(List<Interval> intervals) {
-        if(intervals == null || intervals.size()<=1){
+        if(intervals == null || intervals.size()<2){
             return intervals;
         }
         Collections.sort(intervals, Comparator.comparing((Interval itl)->itl.start));
