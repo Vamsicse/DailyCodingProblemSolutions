@@ -1020,7 +1020,7 @@ Given a word W and a string S, find all starting indices in S which are anagrams
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-[Solution](solution/FindAnagramsInString.java) {Approach: Iteration, Difficulty: Medium}
+[Solution](solution/FindAnagrams.java) {Approach: Iteration, Difficulty: Medium}
 
 ---
 
