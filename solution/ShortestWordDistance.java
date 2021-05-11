@@ -16,12 +16,11 @@ public class ShortestWordDistance {
 
     public static void main(String[] args) {
         String[] words = {"practice", "makes", "perfect", "coding", "makes"};
-        if(shortestWordDistance(words,"makes", "coding") != 1){
-            throw new RuntimeException("Error");
-        }
-        if(shortestWordDistance(words,"makes", "makes") != 3){
-            throw new RuntimeException("Error");
-        }
+        System.out.println(shortestWordDistance(words,"makes", "coding"));
+        System.out.println(shortestWordDistance(words,"makes", "makes"));
+        System.out.println(shortestWordDistance(words,"perfect", "makes"));
+        System.out.println(shortestWordDistance(words,"practice", "coding"));
+        System.out.println(shortestWordDistance(words,"practice", "makes"));
     }
 
     private static int shortestWordDistance(String[] words, String word1, String word2) {
@@ -62,3 +61,14 @@ public class ShortestWordDistance {
     }
 
 }
+
+/*
+Output:
+———————————————————
+1
+3
+1
+3
+1
+
+*/
