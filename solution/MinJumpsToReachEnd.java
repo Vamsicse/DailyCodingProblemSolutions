@@ -17,11 +17,11 @@ public class MinJumpsToReachEnd {
         int size = arr.length;
         System.out.println("Minimum number of jumps to reach end in " + Arrays.toString(arr) + " is: " + minJumps(arr, size)); // Using DP
         System.out.println("Minimum number of jumps to reach end in " + Arrays.toString(arr) + " is: " + minJumpsToReachEnd(arr, size)); // Using BFS
-
     }
 
-    /* Dynamic Programming Approach [Slower compared to BFS].
+    /* Dynamic Programming Approach.
      * Approach: Build jumps[] from right to left. jumps[i] gives min # of jumps needed to reach arr[n-1] from arr[i]. Finally, we return arr[0]
+     * Runtime: 0ms, Memory: 36.3MB
      */
     private static int minJumps(int arr[], int n)
     {
@@ -55,7 +55,7 @@ public class MinJumpsToReachEnd {
         return jumps[0];
     }
 
-    /* BFS Approach [Faster compared to DP]
+    /* BFS Approach
      * Approach: Try to find the “range” which represents all the nodes can be reached in every single jump.
      *    We first define the parameter “level” to stand for the BFS level of all the jumps.
      *    Every time when we are trying to make a jump, we go through all the nodes in nums[i:preStep] and try to expand the BFS range,
