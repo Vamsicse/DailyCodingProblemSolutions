@@ -1621,16 +1621,6 @@ Given a sorted array of distinct integers and a target value, return the index i
 
 #### Problem 374
 
-Combination Sum 2.  {LeetCode: #40}
-
-Given array and target, find all unique combinations that sum up sum to target. (Sum combinations)
-
-[Solution](solution/CombinationSumPossibilitiesList.java)   {Approach: BackTrack, Difficulty: Medium}
-
----
-
-#### Problem 375
-
 Combination Sum 4.  {LeetCode: #377}
 
 Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target. (Sum combinations)
