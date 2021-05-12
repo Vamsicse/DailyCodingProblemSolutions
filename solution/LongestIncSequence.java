@@ -64,3 +64,12 @@ public class LongestIncSequence {
 
 
 // https://leetcode.com/articles/longest-increasing-subsequence/
+
+
+/*
+Output:
+———————————————————
+4
+6
+
+*/
