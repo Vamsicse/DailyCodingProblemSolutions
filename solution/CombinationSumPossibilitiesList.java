@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -19,6 +20,7 @@ import java.util.List;
  */
 public class CombinationSumPossibilitiesList {
 
+    // Runtime: 2ms, Memory: 39MB
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> results = new ArrayList<>();
         LinkedList<Integer> comb = new LinkedList<>();
@@ -50,6 +52,7 @@ public class CombinationSumPossibilitiesList {
     public static void main(String[] args) {
         System.out.println(combinationSum2(new int[]{10,1,2,7,6,1,5}, 8));
         System.out.println(combinationSum2(new int[]{2,5,2,1,2}, 5));
+        System.out.println(combinationSum2(new int[]{12, 1, 61, 5, 9, 2}, 24));
     }
 
 }
@@ -59,5 +62,6 @@ Output:
 ——————————————————————
 [[1, 1, 6], [1, 2, 5], [1, 7], [2, 6]]
 [[1, 2, 2], [5]]
+[[1, 2, 9, 12]]
 
 */
