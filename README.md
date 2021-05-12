@@ -498,7 +498,7 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 
-[Solution](https://www.geeksforgeeks.org/perfect-sum-problem-print-subsets-given-sum/)
+[Solution](solution/CombinationSumPossibilitiesList.java) {Approach: Backtrack, Difficulty: Medium}
 
 ----
 
