@@ -699,11 +699,11 @@ And there are 4 12's in the table.
 
 This problem was asked by Microsoft.
 
-Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
+Given an array of numbers, find length of longest increasing subsequence in the array. Numbers does not necessarily have to be contiguous.
 
-For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], 
+For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
   
-   longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+    Length is 6: 0, 2, 6, 9, 11, 15.
 
 [Solution](solution/LongestIncSequence.java) {Approach: DP with Binary Search, Difficulty: Medium}
 
