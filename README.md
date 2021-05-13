@@ -1511,7 +1511,7 @@ This problem was asked by Facebook.
 
 Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
 
-[Solution](solution/LongestIncSequence.java) {Approach: DP, Difficulty: Medium}
+[Solution](solution/LongestIncSequence.java) {Approach: DP with Binary Search, Difficulty: Medium}
 
 ---
 
