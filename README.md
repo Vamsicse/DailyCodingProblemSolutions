@@ -492,7 +492,7 @@ Do this in $O(N)$ time and $O(1)$ space.
 
 This problem was asked by Google.
 
-Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If it cannot be made, then return null.
+Find combination sum. Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If it cannot be made, then return null.
 
 Integers can appear more than once in the list. You may assume all numbers in the list are positive.
 
