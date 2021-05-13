@@ -1436,7 +1436,7 @@ For example, given the array [3, 7, 8, 3, 6, 1], you should return 3, since the 
 
 Can you do this using just one forward pass through the array?
 
-[Solution](solution/BuildingsFacingSun.java) {Approach: Reverse Slide, Difficulty: Easy}
+[Solution](solution/BuildingsFacingSun.java) {Approach: Slide from end to start, Difficulty: Easy}
 
 ---
 
