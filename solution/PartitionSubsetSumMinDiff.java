@@ -35,9 +35,14 @@ public class PartitionSubsetSumMinDiff {
 
     public static void main(String[] args) {
         PartitionSubsetSumMinDiff obj = new PartitionSubsetSumMinDiff();
-        int diff = obj.canPartition(new int[]{5, 10, 15, 20, 25});
+        int diff;
+        diff = obj.canPartition(new int[]{5, 10, 15, 20, 25});
         System.out.println("Minimum difference between subsets is: " + diff);
         diff = obj.canPartition(new int[]{1, 5, 11, 5});
+        System.out.println("Minimum difference between subsets is: " + diff);
+        diff = obj.canPartition(new int[]{15, 5, 20, 10, 35, 15, 10});
+        System.out.println("Minimum difference between subsets is: " + diff);
+        diff = obj.canPartition(new int[]{15, 5, 20, 10, 35});
         System.out.println("Minimum difference between subsets is: " + diff);
     }
 
@@ -48,5 +53,7 @@ Output:
 ——————————————————— 
 Minimum difference between subsets is: 5
 Minimum difference between subsets is: 0
+Minimum difference between subsets is: 0
+Minimum difference between subsets is: 5
 
 */
