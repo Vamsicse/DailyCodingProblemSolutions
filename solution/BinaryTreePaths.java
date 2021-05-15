@@ -28,6 +28,7 @@ public class BinaryTreePaths {
         System.out.println(binaryTreePaths(tree2Root));
     }
 
+    // Runtime: 1ms, Memory: 38.7MB
     public static List<String> binaryTreePaths(TreeNode root) {
         List<String> list = new ArrayList<>();
         path(root, list, new StringBuilder());
@@ -53,11 +54,6 @@ public class BinaryTreePaths {
         TreeNode left;
         TreeNode right;
         TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 
 }
