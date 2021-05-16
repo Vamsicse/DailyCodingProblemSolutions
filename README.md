@@ -1100,6 +1100,16 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 ---
 
+#### Problem 117
+
+This problem was asked by Facebook.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+[Solution](solution/BinaryTreeMaxLevelSum.java) {Approach: BFS, Difficulty: Medium}
+
+---
+
 #### Problem 118
 
 This problem was asked by Walmart Labs, Google.
@@ -1534,7 +1544,7 @@ Write a program to merge two binary trees. Each node in the new tree should hold
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
-[Solution](solution/MergeBinaryTrees.java) {Approach: Recursion, Difficulty: Medium}
+[Solution](solution/BinaryTreesMerge.java) {Approach: Recursion, Difficulty: Medium}
 
 ---
 
