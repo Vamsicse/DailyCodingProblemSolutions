@@ -9,7 +9,7 @@
  * @version 1.0
  * @since 2019-12-27
  */
-public class MergeBinaryTrees {
+public class BinaryTreesMerge {
 
     public static void main(String[] args) {
         TreeNode node1 = new TreeNode(76);

@@ -14,14 +14,6 @@ public class ConstructBTFromPreorderInorder {
     private int preIndex = 0;
     private HashMap<Integer, Integer> map = new HashMap<>();
 
-    static class TreeNode {
-        int val;
-        TreeNode left, right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     // Runtime: 1ms, Memory: 39.5 MB
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         for(int i = 0; i < inorder.length; i++){
