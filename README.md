@@ -1096,7 +1096,7 @@ Given a string and a set of delimiters, reverse the words in the string while ma
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-[Solution](solution/ReverseWordsInString.java) {Approach: Iteration, Difficulty: Easy}
+[Solution](solution/ReverseWordsKeepDelimiters.java) {Approach: Iteration+Push+Pop, Difficulty: Easy}
 
 ---
 
