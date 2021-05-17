@@ -4,8 +4,8 @@
  *          Return the maximum number of connecting lines we can draw in this way.
  * Approach: This is similar to Longest Common Subsequence.
  *
- * Time Complexity: O(mn)
- * Space Complexity: O(mn)
+ * Time Complexity: O(n*n)
+ * Space Complexity: O(n)
  *
  * @author Vamsi Krishna Myalapalli
  * @version 1.0
@@ -20,16 +20,20 @@ public class IntersectingLines {
         System.out.println(maxUncrossedLines(new int[]{}, new int[]{}));
     }
 
-    // Runtime: 4ms, Memory: 38.6MB
+    // Runtime: 3ms, Memory: 37.1MB
     public static int maxUncrossedLines(int[] A, int[] B) {
-        int m = A.length, n = B.length, dp[][] = new int[m + 1][n + 1];
-        for (int i = 1; i <= m; ++i)
-            for (int j = 1; j <= n; ++j)
-                if (A[i - 1] == B[j - 1])
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                else
-                    dp[i][j] = Math.max(dp[i][j - 1], dp[i - 1][j]);
-        return dp[m][n];
+        int m = A.length, n = B.length;
+        if (m < n) return maxUncrossedLines(B, A);
+        int dp[] = new int[n+1];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0, prev = 0, cur; j < n; j++) {
+                cur = dp[j+1];
+                if (A[i] == B[j]) dp[j+1] = 1+prev;
+                else dp[j+1] = Math.max(dp[j+1], dp[j]);
+                prev = cur;
+            }
+        }
+        return dp[n];
     }
 
 }
