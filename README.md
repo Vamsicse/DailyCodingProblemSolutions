@@ -609,6 +609,18 @@ set(key, value): sets key to value. If there are already n items in the cache an
 
 ---
 
+Problem 54
+
+This problem was asked by Doordash and Dropbox.
+
+Sudoku Validator or Solve Solver
+
+[Solution1](solution/SudokuValidator.java) - SudokuValidator
+
+[Solution2](solution/SudokuSolver.java) - SudokuSolver
+
+---
+
 #### Problem 58
 
 This problem was asked by Amazon.
