@@ -68,6 +68,7 @@ public class SudokuValidator {
     }
 
 
+    // Runtime: 1ms, Memory: 39MB
     public static boolean isValidSudoku(char[][] board) {
         short[] rows = new short[9];
         short[] cols = new short[9];
@@ -90,6 +91,48 @@ public class SudokuValidator {
         }
         return true;
     }
+
+    // Runtime: 1ms, Memory: 39.6MB
+    public boolean isValidSudoku2(char[][] board) {
+        //Row check
+        for (int i=0;i<9;i++){
+            int [] frequency=new int [10];
+            for (int j=0;j<9;j++){
+                if (board[i][j]!='.')  frequency[board[i][j]-'0']++;
+            }
+            for (int k=1;k<10;k++){
+                if (frequency[k]>1) return false;
+            }
+        }
+        //column check
+        for (int i=0;i<9;i++){
+            int [] frequency=new int [10];
+            for (int j=0;j<9;j++){
+                if (board[j][i]!='.') frequency[board[j][i]-'0']++;
+            }
+            for (int k=1;k<10;k++){
+                if (frequency[k]>1) return false;
+            }
+        }
+        //Each submatrix check
+        for (int i=0;i<3;i++){
+            for (int j=0;j<3;j++){
+                int [] frequency=new int [10];
+                for (int k=3*i;k<3*(i+1);k++){
+                    for (int l=3*j;l<3*(j+1);l++){
+                        if (board[k][l]!='.')  frequency[board[k][l]-'0']++;
+                    }
+                }
+                for (int m=1;m<10;m++) {
+                    if (frequency[m]>1) { return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+
 
 }
 
