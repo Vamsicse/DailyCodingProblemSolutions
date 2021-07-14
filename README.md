@@ -1793,3 +1793,11 @@ Given an integer array with all positive numbers and no duplicates, find the num
 [Solution](solution/CombinationSum4.java)   {Approach: DP, Difficulty: Medium}
 
 ---
+
+#### Problem 375
+
+Traversals of Binary Tree. (Inorder, PreOrder, PostOrder, LevelOrder, ZigZagLevelOrder)
+
+[solution](solution/BinaryTreeTraversals.java)
+
+---
