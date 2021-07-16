@@ -19,7 +19,7 @@ m.addServiceCall("B", 3, "ac");
 m.getAllServiceCallsBetweenTimes(1, 4); // ["abc", "ac"]
 ```
 
-[Solution](solution/LogBetweentimes.java) {Approach: TreeMap and range query; Difficulty: Medium}
+[Solution](solution/LogBetweenTimes.java) {Approach: TreeMap and range query; Difficulty: Medium}
 
 ---
 #### Problem 2
