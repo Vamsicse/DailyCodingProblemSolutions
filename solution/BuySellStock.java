@@ -16,11 +16,12 @@ import java.util.List;
 public class BuySellStock {
 
     public static void main(String[] args) {
-
         System.out.println("Max Profit Single Buy and Sell: " + maxProfit(new int[]{176, 72, 32, 100, 76}));
         List<Integer> list = Arrays.asList(5, 2, 4, 0, 1);
         int k=2;
-        System.out.println("Max Profit" + k + " times Buy and Sell: " + maxKPairsProfits(list,k));
+        System.out.println("Max Profit " + k + " times Buy and Sell: " + maxKPairsProfits(list,k));
+        System.out.println("Max Profit Multiple Buy and Sell with fee: " + maxProfit(new int[]{1,3,2,8,4,9}, 2));
+        System.out.println("Max Profit Multiple Buy and Sell with fee: " + maxProfit(new int[]{1,3,7,5,10,3}, 3));
     }
 
     // Maximum profit from 1 buy and sell
@@ -53,6 +54,18 @@ public class BuySellStock {
         return kSum.get(kSum.size() - 1);
     }
 
+    // Find max profit by trading multiple times with a fee
+    // Runtime: 2ms, Memory: 48MB
+    public static int maxProfit(int[] prices, int fee) {
+        if(prices == null) return 0;
+        int cash = 0, hold = -prices[0], oldCash;
+        for(int i=1; i<prices.length; i++){
+            oldCash = cash;
+            cash = Math.max(cash, hold+prices[i]-fee);
+            hold = Math.max(hold, oldCash-prices[i]);
+        }
+        return cash;
+    }
 }
 
 

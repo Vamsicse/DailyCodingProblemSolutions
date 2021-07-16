@@ -27,6 +27,7 @@ public class BinaryTreeTraversals {
     }
 
     // Runtime: 0ms, Memory: 39.1MB
+    // Time Complexity: O(n), Space Complexity: O(n)
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null)
@@ -50,6 +51,7 @@ public class BinaryTreeTraversals {
     }
 
     // Runtime: 0ms, Memory: 39.1MB
+    // Time Complexity: O(n), Space Complexity: O(n)
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null)

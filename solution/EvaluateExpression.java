@@ -1,9 +1,9 @@
 import java.util.Stack;
 
-public class EvaluateExpression
-{
-    public static int evaluate(String expression)
-    {
+public class EvaluateExpression {
+
+    public static int evaluate(String expression) {
+
         char[] tokens = expression.toCharArray();
 
         // Stack for numbers: 'values'
