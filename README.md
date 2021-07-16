@@ -8,12 +8,19 @@
 Google
 
 Get all logs between times.
+
 ServiceManager m = new ServiceManager();
+
 m.addService("A");
+
 m.addService("B");
+
 m.addServiceCall("A", 1, "abc");
+
 m.addServiceCall("A", 5, "abec");
+
 m.addServiceCall("B", 3, "ac");
+
 m.getAllServiceCallsBetweenTimes(1, 4); // ["abc", "ac"]
 
 [Solution](solution/LogBetweentimes.java) {Approach: TreeMap and range query; Difficulty: Medium}
