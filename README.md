@@ -626,7 +626,7 @@ This problem was asked by Apple.
 
 Implement queue using 2 stacks 
 
-[Solution1](solution/QueueUsing2Stacks.java) - Moderate
+[Solution](solution/QueueUsing2Stacks.java) - Moderate
 
 ---
 
