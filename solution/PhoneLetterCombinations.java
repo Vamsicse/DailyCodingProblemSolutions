@@ -53,5 +53,6 @@ Output:
 ——————————————————————
 
 [dmg, dmh, dmi, dng, dnh, dni, dog, doh, doi, emg, emh, emi, eng, enh, eni, eog, eoh, eoi, fmg, fmh, fmi, fng, fnh, fni, fog, foh, foi]
+[a, b, c]
 
 */
