@@ -1,6 +1,16 @@
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * Problem: Implement Queue using 2 Stacks
+ * Approach: Use 2 stacks for every push and pop
+ *
+ * Time complexity : Push: O(1), Pop: O(n), Peek: O(n)
+ * Space complexity : O(n)
+ *
+ * @author  Vamsi Krishna Myalapalli
+ * @since   2021-05-13
+ */
 public class QueueUsing2Stacks {
 
     public static void main(String[] args) {
