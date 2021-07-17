@@ -17,6 +17,7 @@ public class PhoneLetterCombinations {
 
     public static void main(String[] args) {
         System.out.println(letterCombinations("364")); // dog
+        System.out.println(letterCombinations("2"));
         // System.out.println(letterCombinations("2882250669")); // attack now
     }
 
