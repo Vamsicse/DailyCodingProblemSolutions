@@ -104,3 +104,16 @@ public class EvaluateExpression {
         System.out.println(evaluate("1 + (2 + 3)"));
     }
 }
+
+/*
+Output:
+——————————————————————
+
+22
+212
+1400
+100
+6
+
+
+*/
