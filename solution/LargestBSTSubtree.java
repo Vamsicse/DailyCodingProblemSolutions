@@ -1,7 +1,6 @@
 /**
  * Problem: Find largest BST subtree in a given Binary Tree
- * Approach: Recursion
- * While visiting each node keep track of size of largest BST so far
+ * Approach: Recursion. While visiting each node keep track of size of largest BST so far
  *
  * Time complexity : O(n)
  * Space complexity : O(n)
@@ -23,6 +22,7 @@ public class LargestBSTSubtree {
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(8);
         root.right.right = new TreeNode(7);
+
         System.out.println(largestBSTSubtree(root));
     }
 
@@ -73,4 +73,4 @@ Output:
 
 3
 
- */
+*/
