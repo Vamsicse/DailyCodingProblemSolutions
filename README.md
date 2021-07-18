@@ -962,6 +962,18 @@ Given an integer n and a list of integers l, write a function that randomly gene
 
 ---
 
+#### Problem 93
+
+This problem was asked by Apple.
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+[Solution](solution/LargestBSTSubtree.java)
+
+---
+
 #### Problem 95
 
 This problem was asked by Palantir.
