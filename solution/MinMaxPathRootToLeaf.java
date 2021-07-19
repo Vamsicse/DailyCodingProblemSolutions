@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Problem: FInd min/max path from root to leaf
+ * Problem: Find min/max path from root to leaf
  * Approach: Recursion to find sum and BFS to find sum path
  *
  * Time complexity : O(n)

@@ -3,6 +3,16 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Problem: Find most frequent subtree sum. LC: 508
+ * Approach: DFS and HashMap to store frequency.
+ *
+ * Time complexity : O(n)
+ * Space complexity : O(n)
+ *
+ * @author  Vamsi Krishna Myalapalli
+ * @since   2021-05-13
+ */
 public class FrequentSubtreeSum {
 
     private static int highFreq = 0;
@@ -25,7 +35,7 @@ public class FrequentSubtreeSum {
         int left =  dfs(node.left, list, map);
         int right =   dfs(node.right, list, map);
 
-        int sum = left+right + node.val;
+        int sum = left + right + node.val;
         map.put(sum,  map.getOrDefault(sum,0)+1);
 
         if(map.get(sum)> highFreq)  {
@@ -58,6 +68,5 @@ Output:
 ——————————————————————
 [2, -3, 4]
 [2]
-
 
 */
