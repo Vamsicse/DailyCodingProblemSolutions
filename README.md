@@ -1473,9 +1473,9 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 
 #### Problem 177
 
-This problem was asked by Airbnb.
+This problem was asked by Airbnb. 
 
-Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
+Linked list rotate. Right rotate list by `k` places.
 
 For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 
