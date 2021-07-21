@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * Problem: Find Intersection point.
  * Approach: Use HashTable
@@ -16,37 +13,6 @@ public class FindIntersection {
 
     static class LinkedList {
         static ListNode head1, head2;
-    }
-
-    static class ListNode {
-      Integer val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
-        @Override
-        public boolean equals(Object o) {
-            if (o == this) {
-                return true;
-            }
-            if (!(o instanceof ListNode)) {
-                return false;
-            }
-            ListNode c = (ListNode) o;
-            return val==c.val && next == c.next;
-        }
-        @Override
-        public int hashCode() {
-            int hash = 7;
-            hash = 17 * hash + (this.val != null ? this.val.hashCode() : 0);
-            return hash;
-        }
-
-        @Override
-        public String toString() {
-            return String.valueOf(val);
-        }
     }
 
     public static void main(String[] args) {
