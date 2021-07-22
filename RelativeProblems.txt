@@ -150,7 +150,6 @@ Uber - 2, 87, 160, 166, 203, 239, 293, 300, 302, 350
 VMware - 286
 Walmart Labs - 309
 Wayfair - 312
-WhatsApp - 257
 Yahoo - 218, 254, 317, 347
 Yelp - 81, 215, 245
 Yext - 284
