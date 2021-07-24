@@ -1613,6 +1613,16 @@ Given a complete binary tree, count the number of nodes in faster than O(n) time
 
 ---
 
+Problem 209
+
+This problem was asked by YouTube.
+
+Write a program that computes the length of the longest common subsequence (LCS) of 3 given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
+
+[Solution](solution/LCS.java) {Approach: DP, Difficulty: Medium}
+
+---
+
 #### Problem 210
 
 This problem was asked by Apple.
