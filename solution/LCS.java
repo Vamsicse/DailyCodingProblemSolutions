@@ -1,3 +1,13 @@
+/**
+ * Problem: Find Least Common Sequence. LC: 1143
+ * Approach: DP
+ *
+ * Time complexity : O(m*n)
+ * Space complexity : O(m*n)
+ *
+ * @author  Vamsi Krishna Myalapalli
+ * @since   2021-05-13
+ */
 public class LCS {
 
     public static void main(String[] args) {
