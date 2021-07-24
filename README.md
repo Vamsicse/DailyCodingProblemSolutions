@@ -1835,7 +1835,7 @@ There are at-most three trains at a time (time between 11:00 to 11:20)
 
 #### Problem 369
 
-Deep Clone a Graph (Graph Clone)
+Graph Clone deep.
 
 This problem was asked by Amazon, Facebook.
 
