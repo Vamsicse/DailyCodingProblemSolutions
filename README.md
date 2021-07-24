@@ -1684,6 +1684,28 @@ For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you 
 
 ---
 
+#### Problem 275
+
+This problem was asked by Epic.
+
+(LookAndSay) (CountAndSay) sequence:
+
+```
+1
+11
+21
+1211
+111221
+```
+
+As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
+
+Given an integer `N`, print the `Nth` term of this sequence.
+
+[Solution](solution/CountAndSay.java)
+
+---
+
 #### Problem 282
 
 This problem was asked by Netflix.
