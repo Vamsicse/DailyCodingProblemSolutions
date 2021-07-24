@@ -16,6 +16,7 @@ public class CountAndSay {
         }
     }
 
+    // Runtime: 1ms, Memory: 36MB
     public static String countAndSay(int n) {
         if(n == 1){
             return "1";
