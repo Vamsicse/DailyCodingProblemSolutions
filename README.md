@@ -1684,11 +1684,11 @@ For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you 
 
 ---
 
-### Problem 275
+#### Problem 275
 
 This problem was asked by Epic.
 
-The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+(LookAndSay) (CountAndSay) sequence:
 
 ```
 1
