@@ -1661,6 +1661,16 @@ For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2, as the o
 
 ---
 
+#### Problem 248
+
+This problem was asked by Nvidia.
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+[Solution](solution/MaxOfTwoNumbers.java) {Approach: Bitwise Operators, Difficulty: Medium}
+
+---
+
 #### Problem 257
 
 This problem was asked by WhatsApp.
