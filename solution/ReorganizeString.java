@@ -25,10 +25,12 @@ public class ReorganizeString {
         for (char c:S.toCharArray()){
             count[c-'a']++;
             if (count[c-'a']>max){
-                max=count[c-'a']; index=c-'a';
+                max=count[c-'a'];
+                index=c-'a';
             }
         }
-        if (max>S.length()-max+1) return "";
+        if (max>S.length()-max+1)
+            return "";
         char[] result=new char[S.length()];
         for (int k=0;k<result.length;k+=2){
             while (count[index]==0)
