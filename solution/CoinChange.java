@@ -17,13 +17,14 @@ import java.util.Arrays;
 public class CoinChange {
 
     public static void main(String[] args) {
-        System.out.println(coinChange(new int[]{1,5,10,25}, 16));
-        System.out.println(coinChange(new int[]{1,5}, 16));
-        System.out.println(coinChange(new int[]{2}, 3));
+        System.out.println(minCoinsRequired(new int[]{1,5,10,25}, 16));
+        System.out.println(minCoinsRequired(new int[]{1,5}, 16));
+        System.out.println(minCoinsRequired(new int[]{2}, 3));
     }
 
+    // CoinChange1, LC: 322
     // Runtime: 11ms, Memory: 39.1 MB
-    public static int coinChange(int[] coins, int amount) {
+    public static int minCoinsRequired(int[] coins, int amount) {
         int max = amount + 1;
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, max);
@@ -36,6 +37,19 @@ public class CoinChange {
             }
         }
         return dp[amount] > amount ? -1 : dp[amount];
+    }
+
+    // CoinChange2: LC:518
+    // Runtime: 2ms, Memory:36.5MB
+    public int numCombinationsThatMakeAmount(int amount, int[] coins) {
+        int dp[] = new int[amount+1];
+        dp[0] = 1;
+        for(int i=0;i<coins.length;i++){
+            for(int j=coins[i];j<=amount;j++){
+                dp[j] += dp[j-coins[i]];
+            }
+        }
+        return dp[amount];
     }
 }
 
