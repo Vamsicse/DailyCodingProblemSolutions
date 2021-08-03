@@ -1400,7 +1400,7 @@ Do not use flatten or otherwise clone the arrays. Some of the arrays can be empt
 
 This problem was asked by Facebook.
 
-Given an N by N matrix, rotate it by 90 degrees clockwise.
+Given an N by N matrix rotate it by 90 degrees clockwise.
 
 For example, given the following matrix:
 ```
