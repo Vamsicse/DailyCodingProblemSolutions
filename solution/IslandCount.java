@@ -3,7 +3,7 @@
  * Approach: Use DFS
  *
  * Time Complexity: O(n)
- * Space Complexity: O(amount). Memoization table.
+ * Space Complexity: O(1)
  *
  * @author Vamsi Krishna Myalapalli
  * @since 2019-12-27
