@@ -2,6 +2,7 @@
  * Problem: Find Maximum sum such that no two elements are adjacent.
  *          Also referred as Max Loot problem. Find maximum possible loot from non-adjacent houses.
  * Approach: Use DP.
+ * Recurrence Function: f(arr,i) = max( arr[i]+f(arr,i-2), f(arr,i-1) ) 
  *
  * Time Complexity: O(n)
  * Space Complexity: O(1)
@@ -57,5 +58,3 @@ Max Sum of Non Adjacent elements is: 10
 
 
 */
-
-// [More Explanation](https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/)
