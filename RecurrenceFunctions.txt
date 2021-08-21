@@ -1,0 +1,11 @@
+7. CountDigitDecodes - 
+        if (digit[i-1] is not '0')
+             count[i] += count[i-1]
+        Condition to check the last two digits contribution
+        if (digit[i-2] is 1 or (digit[i-2] is 2 and digit[i-1] is less than 7))
+             count[i] += count[i-2]
+             
+9. MaxSumNonAdjacent - f(arr,i) = max( arr[i]+f(arr,i-2), f(arr,i-1) ) 
+
+22. Word Break Problem: 
+
