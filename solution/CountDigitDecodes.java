@@ -1,6 +1,12 @@
 /**
  * Problem: Count Possible Decodes of a given Digit Sequence
  * Approach: Use Dynamic Programming.
+ *    Condition to check last digit can be included or not
+ *       if (digit[i-1] is not '0')
+ *            count[i] += count[i-1]
+ *    Condition to check the last two digits contribution
+ *       if (digit[i-2] is 1 or (digit[i-2] is 2 and digit[i-1] is less than 7))
+ *            count[i] += count[i-2]
  *
  * Time Complexity: O(n)
  * Auxiliary Space: O(n)
@@ -29,8 +35,7 @@ public class CountDigitDecodes {
         char digits[] = s.toCharArray();
         int n = s.length();
         int count[] = new int[n + 1];
-        count[0] = 1;
-        count[1] = 1;
+        count[0] = count[1] = 1;
         if(digits[0]=='0') {   //for base condition "01123" should return 0
             return 0;
         }
