@@ -14,8 +14,6 @@ public class LongestSubstringKUniqueChars {
 
     public static void main(String[] args) {
         LongestSubstringKUniqueChars obj = new LongestSubstringKUniqueChars();
-        System.out.println(obj.lengthOfLongestSubstringKDistinct("abcba", 2));
-        System.out.println(obj.lengthOfLongestSubstringKDistinct("aabbcc", 3));
         System.out.println(obj.lengthOfLongestSubstringKDistinct1("abcba", 2));
         System.out.println(obj.lengthOfLongestSubstringKDistinct1("aabbcc", 3));
     }
