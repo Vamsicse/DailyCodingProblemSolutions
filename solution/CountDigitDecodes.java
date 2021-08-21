@@ -43,9 +43,7 @@ public class CountDigitDecodes {
                 r1 = r2 + r1;
                 r2 = r1 - r2;
             }
-
-            // one-digit letter, no new way added
-            else {
+            else { // one-digit letter, no new way added
                 r2 = r1;
             }
         }
