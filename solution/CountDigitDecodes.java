@@ -9,7 +9,7 @@
  *            count[i] += count[i-2]
  *
  * Time Complexity: O(n)
- * Auxiliary Space: O(n)
+ * Auxiliary Space: O(1)
  *
  * @author  Vamsi Krishna Myalapalli
  * @version 1.0
@@ -21,16 +21,38 @@ public class CountDigitDecodes {
 
     public static void main(String[] args) {
         String str = "111";
-        System.out.println("# of possible combinations for " + str + " is: " + countDecodes(str));
+        System.out.println("# of possible combinations for " + str + " is: " + numDecodings(str));
 
         str = "121";
-        System.out.println("# of possible combinations for " + str + " is: " + countDecodes(str));
+        System.out.println("# of possible combinations for " + str + " is: " + numDecodings(str));
 
         str = "1234";
-        System.out.println("# of possible combinations for " + str + " is: " + countDecodes(str));
+        System.out.println("# of possible combinations for " + str + " is: " + numDecodings(str));
     }
 
-    // Runtime: 1ms, Memory: 39.4MB
+    // Runtime: 0ms, Memory: 37.2MB, SC: O(1)
+    private static int numDecodings(String s) {
+        if(s == null || s.length() == 0 || s.charAt(0) == '0')
+            return 0;
+        int r1 = 1, r2 = 1; // r2: decode ways of s[i-2] , r1: decode ways of s[i-1]
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == '0') // 0 voids ways of the last because zero cannot be used separately
+                r1 = 0;
+            // possible two-digit letter, so new r1 is sum of both while new r2 is the old r1
+            if (s.charAt(i-1) == '1' || s.charAt(i-1) == '2' && s.charAt(i) < '7') {
+                r1 = r2 + r1;
+                r2 = r1 - r2;
+            }
+
+            // one-digit letter, no new way added
+            else {
+                r2 = r1;
+            }
+        }
+        return r1;
+    }
+
+    // Runtime: 1ms, Memory: 39.4MB, SC: O(n)
     private static int countDecodes(String s) {
         char digits[] = s.toCharArray();
         int n = s.length();
@@ -51,6 +73,8 @@ public class CountDigitDecodes {
         return count[n];
     }
 
+
+
 }
 
 
@@ -65,5 +89,3 @@ Output:
 # of possible combinations for 1234 is: 3
 
 */
-
-// More Info: https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
