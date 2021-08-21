@@ -1,6 +1,14 @@
 /**
  * Problem: Find edit distance between two strings
- * Approach: Use Dynamic Programming
+ * Approach: Use Dynamic Programming.
+ *    If last characters of two strings are same, nothing much to do.
+ *       Ignore last characters and get count for remaining strings. So we recur for lengths i-1 and j-1.
+ *    Else (If last characters are not same), we consider all operations on ‘str1’,
+ *       consider all three operations on last character of first string, recursively compute minimum cost for all three operations,
+ *       and take minimum of three values.
+ *          Insert:  Recur for i and j-1
+ *          Remove:  Recur for i-1 and j
+ *          Replace: Recur for i-1 and j-1
  *
  * Time Complexity: O(mn)
  * Auxiliary Space: O(mn)
