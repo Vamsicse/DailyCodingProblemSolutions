@@ -1343,6 +1343,18 @@ For example, for n = 2, one gray code would be [00, 01, 11, 10].
 
 ---
 
+#### Problem 150
+
+This problem was asked by LinkedIn.
+
+Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
+
+For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k = 2`, return `[(0, 0), (3, 1)]`.
+
+[Solution](solution/KClosestPointsToOrigin.java) {Approach: Heap; Difficulty: Medium}
+
+---
+
 #### Problem 153
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
