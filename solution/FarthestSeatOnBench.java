@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
  */
 public class FarthestSeatOnBench {
 
-    private static class Seat {
+    static class Seat {
         int leftEdge, rightEdge;
         Seat(int leftEdge, int rightEdge) {
             this.leftEdge = leftEdge;
