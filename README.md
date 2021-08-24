@@ -1867,7 +1867,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 This problem was asked by Netflix.
 
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythagorean triplet (a, b, c) is defined by the equation a^2 + b^2 = c^2.
+Given an array of integers, determine whether it contains a Pythagorean triplet. It is defined by the equation a^2 + b^2 = c^2.
 
 [Solution](solution/PythagoreanTriplets.java) {Approach: Sort and Slide, Difficulty: Easy}
 
