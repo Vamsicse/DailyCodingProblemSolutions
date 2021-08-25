@@ -27,4 +27,17 @@ public class ListNode {
     public String toString() {
         return String.valueOf(val);
     }
+    
+    public static void print(ListNode head){
+        ListNode temp = head;
+        System.out.println("******************************************************************");
+        while(temp!=null){
+            System.out.print(temp.val);
+            temp = temp.next;
+            if(temp!=null)
+                System.out.print("->");
+        }
+        System.out.println("\n******************************************************************");
+    }
+    
 }
