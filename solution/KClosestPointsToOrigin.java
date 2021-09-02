@@ -47,7 +47,7 @@ public class KClosestPointsToOrigin {
     }
 
     
-    
+    // K ClosestToGivenPoint
     private static List<Point> kClosestToGivenPoint(List<Point> list, final Point center, int k) {
         List<Point> ans = new ArrayList<>();
         PriorityQueue<Point> maxHeap = new PriorityQueue<>(k + 1, (o1, o2) -> distance(center, o2) - distance(center, o1));
