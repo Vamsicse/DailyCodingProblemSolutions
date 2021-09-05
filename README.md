@@ -1766,7 +1766,7 @@ Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C"
 
 Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
-[Solution](solution/ExcelSheetColumn.java)
+[Solution](solution/ExcelSheetColumnNumber.java)
 
 ---
 
