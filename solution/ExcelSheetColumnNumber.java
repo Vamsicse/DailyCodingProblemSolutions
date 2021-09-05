@@ -7,7 +7,7 @@
  * @author Vamsi Krishna Myalapalli
  * @since 2020-12-27
  */
-public class ExcelSheetColumn {
+public class ExcelSheetColumnNumber {
 
     // Runtime: 1ms, Memory: 39 MB. LC: 171
     public static int titleToNumber(String s) {
