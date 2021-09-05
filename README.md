@@ -1760,11 +1760,11 @@ Bonus: What input n <= 1000000 gives the longest sequence?
 
 #### Problem 212
 
-This problem was asked by Dropbox.
+This problem was asked by Apple,Dropbox.
 
-Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
-
-Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
+Spreadsheets use encoding. 
+1. Given a column number, return its alphabetical column id. Example, given `1`, return "A". Given `27`, return "AA".
+2. Given a column id, return its number.
 
 [Solution](solution/ExcelSheetColumnNumber.java)
 
