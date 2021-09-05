@@ -937,7 +937,7 @@ should become:
   f e  d
 ```
 
-[Solution](solution/InvertBinaryTree.java) {Queue/LinkedList}
+[Solution](solution/InvertBinaryTree.java)
 
 ---
 
