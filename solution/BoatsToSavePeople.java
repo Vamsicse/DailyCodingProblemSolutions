@@ -5,7 +5,7 @@
  *           No one can take the same boat with him. At the end of for loop, it may happen that i = j.
  *           But it won't change the result so don't worry about it.
  * Time Complexity: O(nlogn)
- * Space Complexity: O(n)
+ * Space Complexity: O(1)
  *
  * @author Vamsi Krishna Myalapalli
  * @since 2020-12-27
