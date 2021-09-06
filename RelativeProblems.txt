@@ -35,7 +35,7 @@ Grammarly - 349
 IBM - 205, 231
 Indeed - 268
 Jane Street - 5, 32, 116, 163, 325, 332
-LinkedIn - 123, 264, 331, 357
+LinkedIn - 123, 264, 357
 Lyft - 102
 MIT - 238
 Microsoft - 38, 55, 82, 124, 141, 174, 200, 211, 234, 255, 269, 336
