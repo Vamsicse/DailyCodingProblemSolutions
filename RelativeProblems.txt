@@ -38,7 +38,7 @@ Jane Street - 5, 32, 116, 163, 325, 332
 LinkedIn - 123, 264, 357
 Lyft - 102
 MIT - 238
-Microsoft - 38, 55, 82, 124, 141, 174, 200, 211, 234, 255, 269, 336
+Microsoft - 38, 55, 82, 141, 174, 200, 211, 234, 255, 269, 336
 Morgan Stanley - 258
 Mozilla - 262
 Nest - 263
