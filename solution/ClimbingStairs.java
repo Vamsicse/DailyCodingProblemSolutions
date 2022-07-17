@@ -15,7 +15,7 @@ public class ClimbingStairs {
         System.out.println(obj.climbStairsUsingFibonacciNumber(4));
         System.out.println(obj.climbStairsUsingFibonacciFormula(4));
 
-        System.out.println(obj.climbStairs(5,1,3,5)); // Use only steps 1,3,5
+        System.out.println(obj.climbStairs(5,  1,3,5) ); // Use only steps 1,3,5
     }
 
     // Runtime: 0ms, Memory: 36.1MB, Time Complexity: O(n), Space Complexity: O(1)
