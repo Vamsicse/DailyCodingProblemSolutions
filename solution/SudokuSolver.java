@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * Problem: LC:36. Validate Sudoku
+ * Problem: LC:37. Sudoku Solver
  * Approach: Use Backtrack
  *          Try 1 through 9 for each cell.
  *          The time complexity should be 9 ^ m (m represents the number of blanks to be filled in), since each blank can have 9 choices.
