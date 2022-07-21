@@ -2089,11 +2089,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 #### Problem 364
 
-This problem was asked by Facebook.
-
-Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
-
-[Solution](solution/LongestIncSequence.java) {Approach: DP with Binary Search, Difficulty: Medium}
+This problem was asked by Facebook. Same as Problem 75.
 
 ---
 
