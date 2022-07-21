@@ -1594,7 +1594,7 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 
 This problem was asked by Airbnb. 
 
-Linked list rotate. Right rotate list by `k` places.
+Linked list Right rotate list by `k` places.
 
 For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 
