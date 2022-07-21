@@ -1748,7 +1748,7 @@ Problem 209
 
 This problem was asked by YouTube.
 
-Write a program that computes the length of the longest common subsequence (LCS) of 3 given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
+Write a program that computes the length of the longest common subsequence (LCS) of 3 given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, i.e. "eieio".
 
 [Solution](solution/LCS.java) {Approach: DP, Difficulty: Medium}
 
