@@ -403,9 +403,9 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 This problem was asked by Google.
 
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between "kitten" and "sitting" is three: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. Example: Output for "kitten" and "sitting" is 3: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
 
-Given two strings, compute the edit distance between them.
+Given two strings, compute the value.
 
 [Solution](solution/EditDistance.java) (DP - Dynamic Programming Approach)
 
