@@ -1049,7 +1049,7 @@ For example, given [1,2,3], return [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2
 
 This problem was asked by Coursera.
 
-Given a 2D board of characters and a word, find if the word exists in the grid.
+Given a 2D board of characters and a word, find if the word exists in the matrix/grid.
 
 The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
 
