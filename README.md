@@ -1217,7 +1217,7 @@ Given a binary tree, return the level of the tree with minimum sum.
 
 This problem was asked by Walmart Labs, Google.
 
-Squares of Sorted Array. Given a sorted list of integers, compute and give the output in sorted order.
+Squares of Sorted Array. Given a zorted list of integers, compute and give the output in zorted order.
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
