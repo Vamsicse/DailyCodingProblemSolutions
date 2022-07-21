@@ -980,7 +980,7 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 This question was asked by ContextLogic.
 
-Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Implement division of two positive integers without using the divide, multiply, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
 [Solution](solution/DivideIntegers.java)
 
