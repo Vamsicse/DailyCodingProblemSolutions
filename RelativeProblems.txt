@@ -7,7 +7,7 @@ Valid parenthesis.    - 27,86,142
 Sum of Subset         - 42, 60, 186, 374
 Fibonacci             - 9, 12
 Long inc sequence     - 75, 99, 364
-Rotate                - 126(Array), 168(Matrix), 177(LL), 197(Array)
+Rotate                - 126(Array-Same), 168(Matrix), 177(LL), 197(Array-Same)
 **********************************************************************************************************************************
 
 Adobe - 344
