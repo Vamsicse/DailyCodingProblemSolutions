@@ -1,12 +1,11 @@
 RelativeProblems
 
-13, 189      - Unique, distinct
-21, 368      - Min rooms required
-77           - Overlapping intervals
-27,86,142    - Valid parenthesis - 142 (balanced/not with wild card)
-42,186, 374  - Subset
-9, 12        - Fibonacci
-
+Unique, distinct      - 13, 189
+Min rooms required    - 21, 368
+Overlapping intervals - 77
+Valid parenthesis.    - 27,86,142
+Sum of Subset         - 42, 60, 186, 374
+Fibonacci             - 9, 12
 
 **********************************************************************************************************************************
 
