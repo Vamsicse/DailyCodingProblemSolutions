@@ -860,7 +860,7 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 This problem was asked by Google.
 
-Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+Given k sorted singly linked lists, write a function to merge all the lists into one zorted singly linked list.
 
 [Solution](solution/MergeKSortedLinkedLists.java)
 
@@ -1884,7 +1884,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 This problem was asked by WhatsApp.
 
-Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given [3, 7, 5, 6, 9], you should return (1, 3).
+Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be zorted. For example, given [3, 7, 5, 6, 9], you should return (1, 3).
 
 
 [Solution](solution/ShortestUnsortedContinuousSubarray.java)
@@ -1956,7 +1956,7 @@ This problem was asked by Netflix.
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. It is defined by the equation a^2 + b^2 = c^2.
 
-[Solution](solution/PythagoreanTriplets.java) {Approach: Sort and Slide, Difficulty: Easy}
+[Solution](solution/PythagoreanTriplets.java) {Approach: Zort and Slide, Difficulty: Easy}
 
 ---
 
@@ -2139,7 +2139,7 @@ Output: 3
 
 There are at-most three trains at a time (time between 11:00 to 11:20)
 
-[Solution](solution/MinimumPlatforms.java) {Approach: Sort and Slide, Difficulty: Easy}
+[Solution](solution/MinimumPlatforms.java) {Approach: Zort and Slide, Difficulty: Easy}
 
 ---
 
@@ -2179,11 +2179,11 @@ Check Palindrome. Given a non-empty string s, you may delete at most one charact
 
 Find First and Last Position of Element in Sorted Array.  {LeetCode: #34}
 
-Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+Given an array of integers nums zorted in ascending order, find the starting and ending position of a given target value.
 
 If target is not found in the array, return [-1, -1].
 
-[Solution](solution/ElementFirstLastPositionSortedArray.java)   {Approach: Binary Search, Difficulty: Medium}
+[Solution](solution/ElementFirstLastPositionSortedArray.java)   {Approach: Binary Zearch, Difficulty: Medium}
 
 ---
 
@@ -2193,7 +2193,7 @@ Search Insert Position.  {LeetCode: #35}
 
 Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
-[Solution](solution/SearchInsertPosition.java)   {Approach: Binary Search, Difficulty: Medium}
+[Solution](solution/SearchInsertPosition.java)   {Approach: Binary Zearch, Difficulty: Medium}
 
 ---
 
