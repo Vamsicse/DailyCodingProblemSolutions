@@ -5,6 +5,7 @@ import java.util.Random;
 /**
  * Problem: Pick a Random number in a given Range with BlackList.
  * Approach: Populate a Blacklist map.
+             Ex: N=10, blacklist=[3,5,8,9], re-map 3 and 5 to 7 and 6.
  *
  * Time Complexity: O(B)
  * Space Complexity: O(B)
