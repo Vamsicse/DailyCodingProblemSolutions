@@ -201,7 +201,7 @@ dir
 
 The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second-level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
 
-We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
+We are interested in finding the longest (number of characters) absolute paath to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
 
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
 
@@ -290,11 +290,12 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 ---
 
 #### Problem 23
+
 This problem was asked by Google.
 
 You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
 
-Given this, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
+Given this, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If not possible, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
 
 For example, given the following board:
 
@@ -305,7 +306,8 @@ For example, given the following board:
 [f, f, f, f],
 
 [f, f, f, f]]
-and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+
+and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of moves required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
 Also referred as Shortest Path Binary Maze problem.
 
@@ -1346,7 +1348,7 @@ This question was asked by Apple.
 
 Given a binary tree, find a minimum path sum from root to a leaf.
 
-For example, the minimum path in this tree is `[10, 5, 1, -1]`, which has sum 15.
+Ex: Output is `[10, 5, 1, -1]`, which has sum 15.
 
 ```
   10
@@ -1718,6 +1720,8 @@ This problem was asked by Google.
 
 You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. 
 
+WAP to return the weight of the minimum weight path.
+
 For example, [[1], [2, 3], [1, 5, 1]] represents the triangle:
 
 ```
@@ -1726,9 +1730,9 @@ For example, [[1], [2, 3], [1, 5, 1]] represents the triangle:
 1 5 1
 ```
 
-We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, 1 -> 2 -> 1. The weight of the path is the sum of the entries.
+Start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. 
 
-Write a program that returns the weight of the minimum weight path.
+Output is: 1 -> 2 -> 1.
 
 [Solution](solution/TriangleMinPathTopToBottom.java)
 
