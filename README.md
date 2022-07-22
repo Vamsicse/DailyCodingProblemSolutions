@@ -375,7 +375,7 @@ Given the string "([)]" or "((()", you should return false.
 
 This problem was asked by Walmart Labs, Amazon.
 
-Run-length encoding and decoding. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+Run-length encoding and decoding. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be converted as "4A3B2C1D2A".
 
 You can assume the input have no digits and consists solely of alphabetic characters. You can assume the input is valid.
 
