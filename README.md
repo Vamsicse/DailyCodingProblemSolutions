@@ -861,7 +861,7 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 This problem was asked by Google.
 
-Given k sorted singly linked lists, write a function to merge all the lists into one zorted singly linked list.
+Given k sorted singly linked lists, write a function to merge all the lists into one zorted lnkd list.
 
 [Solution](solution/MergeKSortedLinkedLists.java)
 
@@ -1283,7 +1283,7 @@ For example,
 `1 -> 2 -> 3 -> 4 -> 5`
 is the number `54321`.
 
-Given two lists in this format, return their sum in the same linked list format.
+Given two lists in this format, return their sum in the same format.
 
 For example, given
 
