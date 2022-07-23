@@ -639,7 +639,7 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item. get(key): gets the value at key. If no such key exists, return null. Each operation should run in O(1) time.
 
-[Solution1](solution/LRUCache.java) - {Using Linked List} Moderate
+[Solution1](solution/LRUCache.java) - {Using LnkdLst} Moderate
 
 [Solution2](solution/LRU.java) - {Approach: Use DeQueue, Difficulty: Easy}
 
@@ -1278,12 +1278,12 @@ This problem was asked by Microsoft.
 
 Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
 
-For example, the following linked list:
+For example, 
 
 `1 -> 2 -> 3 -> 4 -> 5`
 is the number `54321`.
 
-Given two linked lists in this format, return their sum in the same linked list format.
+Given two lists in this format, return their sum in the same linked list format.
 
 For example, given
 
@@ -1313,7 +1313,7 @@ For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 
 This question was asked by Snapchat.
 
-Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
+Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the list, deep clone the list.
 
 [Solution](solution/CloneLinkedListWithRandomPointer.java) {Difficulty: Medium, Approach:Recursion}
 
@@ -1609,9 +1609,9 @@ This problem was asked by Airbnb.
 
 Linked list Right rotate list by `k` places.
 
-For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
+For example, given `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 
-Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+Given `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
 [Solution](solution/LinkedListRotate.java) {Difficulty: Medium}
 
@@ -1749,11 +1749,11 @@ Given a complete binary tree, count the number of nodes in faster than O(n) time
 
 #### Problem 208
 
-This problem was asked by LinkedIn.
+This problem was asked by LnkdIn.
 
-Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
+Given a linked list of numbers and a pivot `k`, partition it so that all nodes less than `k` come before nodes greater than or equal to `k`.
 
-For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
+For example, given `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
 [Solution](solution/PartitionListLessThanX.java)
 
