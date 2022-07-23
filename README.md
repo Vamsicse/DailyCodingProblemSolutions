@@ -60,6 +60,20 @@ You can modify the input array in-place.
 
 ---
 
+#### Problem 5
+
+Stack using Linked list
+
+[Solution](solution/StackUsingLinkedList.java)
+
+---
+
+Queue using Linked list.
+
+[Solution](solution/QueueUsingLinkedList.java)
+
+---
+
 #### Problem 7
 
 This problem was asked by Facebook.
