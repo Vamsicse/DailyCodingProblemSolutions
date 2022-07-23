@@ -988,7 +988,7 @@ Implement division of two positive integers without using the divide, multiply, 
 ---
 
 #### Problem 89
-This problem was asked by Apple, LinkedIn.
+This problem was asked by Apple.
 
 Determine whether a tree is a valid binary search tree.
 
