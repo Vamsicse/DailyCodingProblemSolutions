@@ -62,14 +62,18 @@ You can modify the input array in-place.
 
 #### Problem 5
 
-Stack using Linked list
+Stack using Array/Linked list.
 
+[Solution](solution/StackUsingArray.java)
 [Solution](solution/StackUsingLinkedList.java)
 
 ---
 
-Queue using Linked list.
+#### Problem 6
 
+Queue using Array/Linked list.
+
+[Solution](solution/QueueUsingArray.java)
 [Solution](solution/QueueUsingLinkedList.java)
 
 ---
