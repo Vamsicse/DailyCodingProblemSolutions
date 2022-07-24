@@ -1,9 +1,5 @@
 /**
  * Problem: Implement Queue using Linked List
- * Approach:
- *
- * Time complexity : Push: O(1), Pop: O(n), Peek: O(n)
- * Space complexity : O(n)
  *
  * @author  Vamsi Krishna Myalapalli
  * @since   2021-05-13
