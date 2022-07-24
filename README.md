@@ -62,7 +62,7 @@ You can modify the input array in-place.
 
 #### Problem 5
 
-Stack using Array/Linked list.
+Stack using Array & Linked list.
 
 [Solution](solution/StackUsingArray.java)
 
@@ -72,7 +72,7 @@ Stack using Array/Linked list.
 
 #### Problem 6
 
-Queue using Array/Linked list.
+Queue using Array & Linked list.
 
 [Solution](solution/QueueUsingArray.java)
 
