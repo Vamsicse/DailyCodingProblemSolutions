@@ -65,6 +65,7 @@ You can modify the input array in-place.
 Stack using Array/Linked list.
 
 [Solution](solution/StackUsingArray.java)
+
 [Solution](solution/StackUsingLinkedList.java)
 
 ---
@@ -74,6 +75,7 @@ Stack using Array/Linked list.
 Queue using Array/Linked list.
 
 [Solution](solution/QueueUsingArray.java)
+
 [Solution](solution/QueueUsingLinkedList.java)
 
 ---
